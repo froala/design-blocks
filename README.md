@@ -1,6 +1,6 @@
 <h3 align="center">Froala Design Blocks</h1>
 
-<p align="center">Over 170 popular design blocks ready to be used in your next project to create beautiful modern websites. All blocks are based on Bootstrap Library and they adapt based on the screen size. 
+<p align="center">Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.</p> 
 <p align="center"><a href="https://www.froala.com/design-blocks#playground">Explore Design Blocks »</a></p>
 <p align="center"><a href="https://www.froala.com/wysiwyg-editor">WYSIWYG HTML Editor</a> · <a href="https://www.froala.com/pages">Pages</a> · <a href="https://www.froala.com/blog">Blog</a> · <a href="https://github.com/froala/design-blocks/archive/master.zip">Download</a></p>
 
