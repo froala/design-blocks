@@ -159,7 +159,11 @@
     top: 0;
     bottom: 0;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    z-index: 1; }
+    .fdb-block .col-fill-left + div {
+      position: relative;
+      z-index: 2; }
   .fdb-block .col-fill-right {
     width: 50%;
     position: absolute;
@@ -167,7 +171,11 @@
     top: 0;
     bottom: 0;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    z-index: 1; }
+    .fdb-block .col-fill-right + div {
+      position: relative;
+      z-index: 2; }
   .fdb-block img.fdb-icon {
     width: auto;
     width: 60px; }
