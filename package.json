@@ -1,14 +1,17 @@
 {
   "name": "froala-design-blocks",
-  "version": "1.0.0",
-  "description": "An amazing collection of HTML and CSS ready to use design blocks based on Bootstrap.",
+  "version": "1.0.0-alpha.1",
+  "description": "An amazing collection of over 170 ready to use design blocks based on Bootstrap.",
   "keywords": [
     "froala",
     "froala design blocks",
     "html design",
     "bootstrap",
     "material design",
-    "html templates"
+    "html templates",
+    "website design",
+    "html5",
+    "trending design"
   ],
   "homepage": "https://www.froala.com/design-blocks",
   "license": "LGPL-2.1",
@@ -38,7 +41,7 @@
     "popper.js": "^1.11.0",
     "vinyl-paths": "^2.1.0"
   },
-  "main": "dist/html/index.html",
+  "main": "dist/index.html",
   "npmName": "froala-design-blocks",
   "npmFileMap": [
     {
