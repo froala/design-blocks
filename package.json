@@ -1,0 +1,55 @@
+{
+  "name": "froala-design-blocks",
+  "version": "1.0.0",
+  "description": "An amazing collection of HTML and CSS ready to use design blocks based on Bootstrap.",
+  "keywords": [
+    "froala",
+    "froala design blocks",
+    "html design",
+    "bootstrap",
+    "material design",
+    "html templates"
+  ],
+  "homepage": "https://www.froala.com/design-blocks",
+  "license": "LGPL-2.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/froala/design-blocks.git"
+  },
+  "maintainers": [
+    {
+      "name": "Froala Labs"
+    }
+  ],
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-copy": "^1.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-open": "^2.0.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.0.0",
+    "popper.js": "^1.11.0",
+    "vinyl-paths": "^2.1.0"
+  },
+  "main": "dist/html/index.html",
+  "npmName": "froala-design-blocks",
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "*.html",
+        "css/*.css",
+        "imgs/*.jpg",
+        "imgs/*.png",
+        "imgs/*.svg"
+      ]
+    }
+  ]
+}

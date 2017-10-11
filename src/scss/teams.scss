@@ -1,0 +1,30 @@
+@import './mixins';
+@import './variables';
+
+.team-1.fdb-block {
+  img {
+    border-bottom: solid 5px $primary-color;
+    @include border-radius(0 !important);
+  }
+
+  .fdb-box {
+    padding: 0;
+
+    .content {
+      padding: 20px;
+    }
+  }
+}
+
+.team-2.fdb-block {
+  img {
+    @include border-radius(100% !important);
+  }
+}
+
+.team-3.fdb-block {
+  img {
+    @include border-radius(100% !important);
+    @include froala-box-shadow(1);
+  }
+}
