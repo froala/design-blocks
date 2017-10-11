@@ -82,6 +82,12 @@
     bottom: 0;
     background-size: cover;
     background-position: center;
+    z-index: 1;
+
+    + div {
+      position: relative;
+      z-index: 2;
+    }
   }
 
   .col-fill-right {
@@ -92,6 +98,12 @@
     bottom: 0;
     background-size: cover;
     background-position: center;
+    z-index: 1;
+
+    + div {
+      position: relative;
+      z-index: 2;
+    }
   }
 
   img.fdb-icon {
