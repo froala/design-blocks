@@ -152,8 +152,6 @@
       margin-top: 20px; }
     .fdb-block img + h1, .fdb-block img + h2 {
       margin-top: 40px; }
-    .fdb-block img + img {
-      margin-left: 40px; }
   .fdb-block .col-fill-left {
     width: 50%;
     position: absolute;
