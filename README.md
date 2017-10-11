@@ -22,7 +22,7 @@
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/froala/design-blocks/archive/1.0.0-beta.zip)
+- [Download the latest release.](https://github.com/froala/design-blocks/archive/1.0.0-alpha.1.zip)
 - Clone the repo: `git clone https://github.com/froala/design-blocks.git`
 - Install with [npm](https://www.npmjs.com/): `npm install froala-design-blocks`
 
