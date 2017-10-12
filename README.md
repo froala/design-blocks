@@ -27,7 +27,7 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/froala/design-blocks/archive/1.0.0-alpha.1.zip)
+- [Download the latest release.](https://github.com/froala/design-blocks/archive/1.0.0-beta.zip)
 - Clone the repo: `git clone https://github.com/froala/design-blocks.git`
 - Install with [npm](https://www.npmjs.com/): `npm install froala-design-blocks`
 
@@ -92,7 +92,7 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 
 ## Browser Support
 
-At the moment, we aim to support all major web browsers. Any issue in the browsers listed below should be reported as a bug: 
+At the moment, we aim to support all major web browsers. Any issue in the browsers listed below should be reported as a bug:
 
 - Internet Explorer 10+
 - Microsoft Edge 14+
@@ -146,4 +146,4 @@ Special thanks to everyone who contributed to getting the Froala Design Blocks t
 
 ## Copyright and license
 
-Code and documentation copyright 2017 [Froala Labs](https://www.froala.com/). Code released under the [LGPL-2.1 License](https://github.com/froala/design-blocks/blob/master/LICENSE). 
+Code and documentation copyright 2017 [Froala Labs](https://www.froala.com/). Code released under the [LGPL-2.1 License](https://github.com/froala/design-blocks/blob/master/LICENSE).
