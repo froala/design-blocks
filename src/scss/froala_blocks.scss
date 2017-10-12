@@ -9,30 +9,29 @@
   line-height: $line-height;
   @include font-smoothing(on);
   text-rendering: optimizelegibility;
-  padding: 100px 0;
-  border-bottom: solid 1px #EEE;
-  color: #444;
+  padding: $block-padding 0;
+  color: $font-color;
   position: relative;
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  background-color: #FFF;
+  background-color: $white;
 
   &.fdb-viewport {
-    min-height: calc(100% - 200px);
+    min-height: calc(100% - 2 * $block-padding);
 
     .container {
-      min-height: calc(100% - 200px);
+      min-height: calc(100% - 2 * $block-padding);
     }
   }
 
   &.fdb-image-bg {
-    color: mix(#000, #FFF, 5%);
+    color: mix($black, $white, 5%);
   }
 
   .fdb-box {
-    background: #FFF;
-    color: #444;
+    background: $white;
+    color: $font-color;
     padding: 60px 40px;
     @include border-radius(4px);
     @include froala-box-shadow(1);
@@ -55,11 +54,6 @@
 
   .font-weight-light {
     font-weight: 300;
-  }
-
-  p {
-    font-size: 1em;
-    margin-bottom: 10px;
   }
 
   img {
@@ -148,20 +142,20 @@ footer {
 
   &.bg-dark {
     background: #2d313c;
-    color: mix(#000, #FFF, 5%);
+    color: mix($black, $white, 5%);
 
     a {
-      color: mix(#000, #FFF, 5%);
+      color: mix($black, $white, 5%);
     }
   }
 
   a {
-    color: #444;
+    color: $font-color;
   }
 }
 
 header {
-  background-color: #FFF;
+  background-color: $white;
 
   .navbar-nav {
     a.nav-link {
@@ -174,7 +168,7 @@ header {
 
     .active {
       a.nav-link {
-        color: #444;
+        color: $font-color;
       }
     }
   }
@@ -195,7 +189,7 @@ header {
 
       .active {
         a.nav-link {
-          color: #fff;
+          color: $white;
         }
       }
     }
@@ -212,12 +206,12 @@ header + header {
 
 .bg-dark {
   background-color: #2d313c;
-  color: mix(#000, #FFF, 5%);
+  color: mix($black, $white, 5%);
 }
 
 .bg-gray {
   background-color: #fafafa;
-  color: #444;
+  color: $font-color;
 }
 
 .br {
