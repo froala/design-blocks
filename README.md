@@ -1,10 +1,15 @@
-<h3 align="center">Froala Design Blocks</h1>
+# [Froala Design Blocks](https://www.froala.com/design-blocks)
 
-<p align="center">Over 170 popular design blocks ready to be used in your next project to create beautiful modern websites. All blocks are based on Bootstrap Library and they adapt based on the screen size. 
-<p align="center"><a href="https://www.froala.com/design-blocks#playground">Explore Design Blocks »</a></p>
-<p align="center"><a href="https://www.froala.com/wysiwyg-editor">WYSIWYG HTML Editor</a> · <a href="https://www.froala.com/pages">Pages</a> · <a href="https://www.froala.com/blog">Blog</a> · <a href="https://github.com/froala/design-blocks/archive/master.zip">Download</a></p>
+[![npm](https://img.shields.io/npm/v/froala-design-blocks.svg)](https://www.npmjs.com/package/froala-design-blocks)
+[![License: LGPL v2.1](https://img.shields.io/badge/License-LGPL%20v2.1-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1)
+[![CDNJS](https://img.shields.io/cdnjs/v/froala-design-blocks.svg)](https://cdnjs.com/libraries/froala-design-blocks)
+[![GitHub package version](https://img.shields.io/github/package-json/v/froala/design-blocks.svg)](https://github.com/froala/design-blocks)
 
-## Table of contents [![npm](https://img.shields.io/npm/v/froala-design-blocks.svg)](https://www.npmjs.com/package/froala-design-blocks) [![License: LGPL v2.1](https://img.shields.io/badge/License-LGPL%20v2.1-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1) [![CDNJS](https://img.shields.io/cdnjs/v/froala-design-blocks.svg)](https://cdnjs.com/libraries/froala-design-blocks) [![GitHub tag](https://img.shields.io/github/tag/froala/design-blocks.svg)]()
+Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.
+<p><a href="https://www.froala.com/design-blocks#playground">Explore Design Blocks »</a></p>
+<p><a href="https://www.froala.com/wysiwyg-editor">WYSIWYG HTML Editor</a> · <a href="https://www.froala.com/pages">Pages</a> · <a href="https://www.froala.com/blog">Blog</a> · <a href="https://github.com/froala/design-blocks/archive/master.zip">Download</a></p>
+
+## Table of contents
 
 - [Quick start](https://github.com/froala/design-blocks#quick-start)
 - [What's included?](https://github.com/froala/design-blocks#whats-included)
@@ -87,25 +92,30 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 
 ## Browser Support
 
-At present, we officially aim to support the last two versions of the following browsers:
+At the moment, we aim to support all major web browsers. Any issue in the browsers listed below should be reported as a bug: 
 
-- Chrome
-- Edge
-- Firefox
-- Safari
-- Opera
 - Internet Explorer 10+
-- Safari iOS
-- Chrome, Firefox and Default Browser Android
+- Microsoft Edge 14+
+- Safari 6+
+- Firefox (Current - 1) and Current versions
+- Chrome (Current - 1) and Current versions
+- Opera (Current - 1) and Current versions
+- Safari iOS 7.0+
+- Android 6.0+
+
+(Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
 
 
 ## Community
 
-Get updates on Froala Design Blocks' development and chat with the project maintainers and community members.
+Get updates on Froala Design Blocks' development and chat with the project maintainers and community members:
 
-- Follow [@froala on Twitter](https://twitter.com/froala).
-- Read and subscribe to [The Official Froala Blog](https://www.froala.com/blog).
-- Check the [Official Website](https://www.froala.com/design-blocks).
+- Follow [@froala on Twitter](https://twitter.com/froala)
+- Read and subscribe to [The Official Froala Blog](https://www.froala.com/blog)
+- Check the [Official Website](https://www.froala.com/design-blocks)
+- Join us [on Facebook](https://www.facebook.com/froala/)
+- [Google+](https://plus.google.com/+Froala/)
+- [Pinterest](https://pinterest.com/froala/)
 
 
 ## Development
@@ -130,7 +140,7 @@ gulp
 
 Special thanks to everyone who contributed to getting the Froala Design Blocks to the current state.
 
-- [ Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for images
+- [ Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for the images
 
 
 
