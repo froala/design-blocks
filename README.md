@@ -9,6 +9,8 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 <p><a href="https://www.froala.com/design-blocks#playground">Explore Design Blocks »</a></p>
 <p><a href="https://www.froala.com/wysiwyg-editor">WYSIWYG HTML Editor</a> · <a href="https://www.froala.com/pages">Pages</a> · <a href="https://www.froala.com/blog">Blog</a> · <a href="https://github.com/froala/design-blocks/archive/master.zip">Download</a></p>
 
+![Design Blocks](https://raw.githubusercontent.com/froala/design-blocks/master/design-blocks.jpg)
+
 ## Table of contents
 
 - [Quick start](https://github.com/froala/design-blocks#quick-start)
