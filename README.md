@@ -62,7 +62,7 @@ design-blocks/
 └── src/
 ```
 
-We provide compiled CSS (`froala_blocks.css`), as well as compiled and minified CSS (`froala_blocks.min.css`). Also, in the downloaded archive you will find useful images and PSD files that you can use to create new backgrounds. In the `screenhots` folder, there are the screenshots of all design blocks.
+We provide compiled CSS (`froala_blocks.css`), as well as compiled and minified CSS (`froala_blocks.min.css`). Also, in the downloaded archive you will find useful images and PSD files that you can use to create new backgrounds. In the `screenshots` folder, there are the screenshots of all design blocks.
 
 ## Bugs and feature requests
 
