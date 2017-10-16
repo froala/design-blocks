@@ -1,9 +1,10 @@
 # [Froala Design Blocks](https://www.froala.com/design-blocks)
 
-[![npm](https://img.shields.io/npm/v/froala-design-blocks.svg)](https://www.npmjs.com/package/froala-design-blocks)
+[![npm](https://img.shields.io/npm/v/froala-design-blocks.svg?colorB=brightgreen)](https://www.npmjs.com/package/froala-design-blocks)
 [![CDNJS](https://img.shields.io/cdnjs/v/froala-design-blocks.svg)](https://cdnjs.com/libraries/froala-design-blocks)
 [![GitHub package version](https://img.shields.io/github/package-json/v/froala/design-blocks.svg)](https://github.com/froala/design-blocks)
 [![License: FOWDL v1.0](https://img.shields.io/badge/license-FOWDL-blue.svg)](https://github.com/froala/design-blocks/blob/master/LICENSE)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://www.froala.com/design-blocks&via=froala&hashtags=bootstrap,design,templates,blocks,developers)
 
 Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.
 <p><a href="https://www.froala.com/design-blocks#playground">Explore Design Blocks »</a></p>
