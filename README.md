@@ -147,4 +147,4 @@ Special thanks to everyone who contributed to getting the Froala Design Blocks t
 
 ## Copyright and license
 
-Code and documentation copyright 2017 [Froala Labs](https://www.froala.com/). Code released under the [LGPL-2.1 License](https://github.com/froala/design-blocks/blob/master/LICENSE).
+Code and documentation copyright 2017 [Froala Labs](https://www.froala.com/). Code released under the [Froala Open Web Design License](https://github.com/froala/design-blocks/blob/master/LICENSE).
