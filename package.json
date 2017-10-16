@@ -1,6 +1,6 @@
 {
   "name": "froala-design-blocks",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "An amazing collection of over 170 ready to use design blocks based on Bootstrap.",
   "keywords": [
     "froala",
@@ -14,7 +14,7 @@
     "trending design"
   ],
   "homepage": "https://www.froala.com/design-blocks",
-  "license": "LGPL-2.1",
+  "license": "https://github.com/froala/design-blocks/blob/master/LICENSE",
   "repository": {
     "type": "git",
     "url": "git://github.com/froala/design-blocks.git"
