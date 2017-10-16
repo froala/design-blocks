@@ -1,7 +1,6 @@
 # [Froala Design Blocks](https://www.froala.com/design-blocks)
 
 [![npm](https://img.shields.io/npm/v/froala-design-blocks.svg)](https://www.npmjs.com/package/froala-design-blocks)
-[![License: LGPL v2.1](https://img.shields.io/badge/License-LGPL%20v2.1-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1)
 [![CDNJS](https://img.shields.io/cdnjs/v/froala-design-blocks.svg)](https://cdnjs.com/libraries/froala-design-blocks)
 [![GitHub package version](https://img.shields.io/github/package-json/v/froala/design-blocks.svg)](https://github.com/froala/design-blocks)
 
