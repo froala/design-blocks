@@ -7,6 +7,9 @@
 [![License: FOWDL v1.0](https://img.shields.io/badge/license-FOWDL-blue.svg)](https://github.com/froala/design-blocks/blob/master/LICENSE)
 
 Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.
+
+**Discuss it on [Product Hunt](https://www.producthunt.com/posts/froala-design-blocks-2) 🦄**
+
 <p><a href="https://www.froala.com/design-blocks#playground">Explore Design Blocks »</a></p>
 <p><a href="https://www.froala.com/wysiwyg-editor">WYSIWYG HTML Editor</a> · <a href="https://www.froala.com/pages">Pages</a> · <a href="https://www.froala.com/blog">Blog</a> · <a href="https://github.com/froala/design-blocks/archive/master.zip">Download</a></p>
 
