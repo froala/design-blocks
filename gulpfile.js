@@ -38,7 +38,7 @@ gulp.task('watch', [], function() {
     gulp.start(['imgs']);
   })
   watch('src/scss', function () {
-    gulp.start(['scss']);
+    gulp.start(['sass']);
   });
 })
 
