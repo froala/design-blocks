@@ -34,7 +34,8 @@
     "gulp-copy": "^1.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-open": "^2.0.0",
-    "gulp-scss": "^1.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-watch": "^4.3.11",
     "node-sass": "^4.5.3"
   },
