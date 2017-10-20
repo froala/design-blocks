@@ -139,7 +139,7 @@ cd design-blocks
 
 ```bash
 npm install
-gulp
+npm run gulp
 ```
 
 ## Contributors
