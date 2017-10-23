@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var watch = require('gulp-watch');
-var scss = require("gulp-scss");
+var sass = require('gulp-sass');
 var copy = require('gulp-copy');
 var connect = require('gulp-connect');
 var del = require('del');
@@ -10,9 +10,9 @@ gulp.task('clean', function () {
   del.sync('dist/**/*');
 })
 
-gulp.task('scss', function () {
+gulp.task('sass', function () {
     gulp.src(['src/scss/froala_blocks.scss'])
-        .pipe(scss())
+        .pipe(sass())
         .pipe(gulp.dest("dist/css"))
 });
 
@@ -35,7 +35,7 @@ gulp.task('watch', [], function() {
     gulp.start(['imgs']);
   })
   watch('src/scss', function () {
-    gulp.start(['scss']);
+    gulp.start(['sass']);
   });
 })
 
@@ -47,7 +47,7 @@ gulp.task('connect', function () {
     });
 });
 
-gulp.task('build', ['clean', 'html', 'imgs', 'scss']);
+gulp.task('build', ['clean', 'html', 'imgs', 'sass']);
 
-gulp.task('default', ['clean', 'html', 'imgs', 'scss', 'connect', 'watch'], function () {
+gulp.task('default', ['clean', 'html', 'imgs', 'sass', 'connect', 'watch'], function () {
 });
