@@ -91,9 +91,9 @@
   overflow: hidden;
   background-color: #FFFFFF; }
   .fdb-block.fdb-viewport {
-    min-height: calc(100% - 2 * $block-padding); }
+    min-height: calc(100% - 2 * 100px); }
     .fdb-block.fdb-viewport .container {
-      min-height: calc(100% - 2 * $block-padding); }
+      min-height: calc(100% - 2 * 100px); }
   .fdb-block.fdb-image-bg {
     color: #f2f2f2; }
   .fdb-block .fdb-box {
