@@ -1,0 +1,46 @@
+.fdb-block.project {
+	padding: 50px 0 !important;
+}
+
+.project_nav li, ol, ul {
+    list-style: none;
+}
+
+.project_nav a {
+	color: #000;
+    text-decoration: none;
+}
+
+.project_nav {
+	line-height: 1;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.project_nav li {
+	display: inline-block;
+	padding: 0 15px;
+    margin-right: 25px;
+    border-radius: 2px;
+    line-height: 43px;
+}
+
+.project_nav li.current {
+	background-color: #e9efff;
+}
+
+.project_nav li.last {
+    float: right;
+    margin-right: 0;
+    padding: 0;
+}
+
+.footer-large .contact p {
+    color: #333;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: arial;
+    margin: 5px 0;
+}
+
