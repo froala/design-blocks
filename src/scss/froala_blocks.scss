@@ -244,3 +244,31 @@ table {
     }
   }
 }
+
+/**
+ * Right-To-Left Support
+ */
+
+html[dir="rtl"] {
+  .fdb-block {
+    .col-fill-left {
+      left: auto;
+      right: 0;
+    }
+
+    .col-fill-right {
+      left: 0;
+      right: auto;
+    }
+  }
+
+  footer {
+
+    .flex-column {
+      .nav-link {
+        padding-left: inherit;
+        padding-right: 0;
+      }
+    }
+  }
+}

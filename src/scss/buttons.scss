@@ -69,3 +69,13 @@
     min-width: 150px;
   }
 }
+
+/**
+ * Right-To-Left Support
+ */
+ html[dir="rtl"] .btn {
+   + .btn {
+     border-left: inherit;
+     margin-right: 30px;
+   }
+ }

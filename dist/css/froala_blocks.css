@@ -52,6 +52,13 @@
     -webkit-border-radius: 20px;
     min-width: 150px; }
 
+/**
+ * Right-To-Left Support
+ */
+html[dir="rtl"] .btn + .btn {
+  border-left: inherit;
+  margin-right: 30px; }
+
 .team-1.fdb-block img {
   border-bottom: solid 5px #528bff;
   border-radius: 0 !important;
@@ -262,3 +269,18 @@ header + header {
 
 table tr.no-border th, table tr.no-border td {
   border-top: 0; }
+
+/**
+ * Right-To-Left Support
+ */
+html[dir="rtl"] .fdb-block .col-fill-left {
+  left: auto;
+  right: 0; }
+
+html[dir="rtl"] .fdb-block .col-fill-right {
+  left: 0;
+  right: auto; }
+
+html[dir="rtl"] footer .flex-column .nav-link {
+  padding-left: inherit;
+  padding-right: 0; }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr">
 <head>
   <title>Froala Design Blocks</title>
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
@@ -36,8 +36,9 @@
           <h1>Froala Design Blocks</h1>
           <p class="text-h3">Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.</p>
           <p class="mt-5">
-            <a class="btn btn-black" href="https://github.com/froala/design-blocks"><i class="fa fa-github"></i> Github Docs</a>
+            <a class="btn btn-black" href="https://github.com/froala/design-blocks"><i class="fa fa-github"></i>&nbsp;Github Docs</a>
             <a class="btn" href="https://froala.com/design-blocks#playground">Official Website</a>
+            <a class="btn btn-black" href="#" id="page-direction-btn">Switch Page Direction</i></a>
           </p>
         </div>
       </div>
@@ -95,6 +96,14 @@
 
       el.addEventListener('click', chooseBlock);
     }
+
+    var dirBtn = document.getElementById('page-direction-btn');
+
+    function switchPageDireciton() {
+      var isLTR = document.documentElement.dir === "ltr";
+      document.documentElement.dir = isLTR ? "rtl" : "ltr";
+    }
+    dirBtn.addEventListener('click', switchPageDireciton);
   </script>
 </body>
 </html>
