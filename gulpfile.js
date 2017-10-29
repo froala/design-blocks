@@ -7,42 +7,47 @@ var del = require('del');
 var vinylPaths = require('vinyl-paths');
 var utils = require('./utils');
 
-gulp.task('clean', function () {
-  del.sync('dist/**/*');
-})
+var build = function (dest) {
+  gulp.task('clean-' + dest, function () {
+    del.sync('dist/**/*');
+  })
 
-gulp.task('sass', function () {
-    gulp.src(['src/scss/froala_blocks.scss'])
-        .pipe(sass())
-        .pipe(gulp.dest("dist/css"))
-});
+  gulp.task('sass-' + dest, function () {
+      gulp.src(['src/scss/froala_blocks.scss'])
+          .pipe(sass())
+          .pipe(gulp.dest(dest + '/css'))
+  });
 
-gulp.task('html', function () {
-  gulp.src(['src/html/**/*.html'])
-      .pipe(gulp.dest('dist'))
-})
+  gulp.task('html-' + dest, function () {
+    gulp.src(['src/html/**/*.html'])
+        .pipe(gulp.dest(dest))
+  })
 
-gulp.task('imgs', function () {
-  gulp.src(['src/imgs/**/*'])
-      .pipe(gulp.dest('dist/imgs'))
-})
+  gulp.task('imgs-' + dest, function () {
+    gulp.src(['src/imgs/**/*'])
+        .pipe(gulp.dest(dest + '/imgs'))
+  })
+}
+
+build('demo');
+build('dist');
 
 gulp.task('watch', [], function() {
   watch('dist').pipe(connect.reload());
   watch('src/html', function () {
-    gulp.start(['html']);
+    gulp.start(['html-demo']);
   })
   watch('src/imgs', function () {
-    gulp.start(['imgs']);
+    gulp.start(['imgs-demo']);
   })
   watch('src/scss', function () {
-    gulp.start(['sass']);
+    gulp.start(['sass-demo']);
   });
 })
 
 gulp.task('connect', function () {
     connect.server({
-        root: ['dist', 'node_modules', 'screenshots'],
+        root: ['demo', 'node_modules', 'screenshots'],
         port: 8001,
         livereload: true
     });
@@ -67,7 +72,6 @@ gulp.task('screenshots', function(cb) {
   });
 });
 
-gulp.task('build', ['clean', 'html', 'imgs', 'sass']);
+gulp.task('dist', ['clean-dist', 'html-dist', 'imgs-dist', 'sass-dist']);
 
-gulp.task('default', ['clean', 'html', 'imgs', 'sass', 'connect', 'watch'], function () {
-});
+gulp.task('default', ['clean-demo', 'html-demo', 'imgs-demo', 'sass-demo', 'connect', 'watch']);

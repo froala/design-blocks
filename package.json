@@ -25,7 +25,8 @@
     }
   ],
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "dist": "gulp dist"
   },
   "devDependencies": {
     "del": "^3.0.0",
