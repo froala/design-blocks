@@ -5,6 +5,7 @@ var copy = require('gulp-copy');
 var connect = require('gulp-connect');
 var del = require('del');
 var vinylPaths = require('vinyl-paths');
+var utils = require('./utils');
 
 gulp.task('clean', function () {
   del.sync('dist/**/*');
@@ -45,6 +46,25 @@ gulp.task('connect', function () {
         port: 8001,
         livereload: true
     });
+});
+
+gulp.task('screenshots', function(cb) {
+  del.sync('./screenshots');
+
+  utils.makeScreenshots([
+    ['call_to_action', 'header, section, footer'],
+    ['contacts', 'header, section, footer'],
+    ['contents', 'header, section, footer'],
+    ['features', 'header, section, footer'],
+    ['footers', 'header, section, footer'],
+    ['forms', 'header, section, footer'],
+    ['headers', 'header, section, footer'],
+    ['pricings', 'header, section, footer'],
+    ['teams', 'header, section, footer'],
+    ['testimonials', 'header, section, footer'],
+  ]).then(function() {
+    cb();
+  });
 });
 
 gulp.task('build', ['clean', 'html', 'imgs', 'sass']);
