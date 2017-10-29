@@ -3,6 +3,7 @@ node_modules/*
 .gulp-scss-cache/*
 .sass-cache/*
 dist/*
+screenshots/*
 
 # OS or Editor folders
 ._*
