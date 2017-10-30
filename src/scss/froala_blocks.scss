@@ -18,10 +18,10 @@
   background-color: $white;
 
   &.fdb-viewport {
-    min-height: calc(100% - 2 * $block-padding);
+    min-height: calc(100% - 2 * #{$block-padding});
 
     .container {
-      min-height: calc(100% - 2 * $block-padding);
+      min-height: calc(100% - 2 * #{$block-padding});
     }
   }
 
