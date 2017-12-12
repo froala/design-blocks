@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "del": "^3.0.0",
-    "fs-extra": "^4.0.2",
+    "fs-extra": "^4.0.3",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-copy": "^1.0.0",
