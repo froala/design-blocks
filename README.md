@@ -17,26 +17,49 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Table of contents
 
-- [Quick start](https://github.com/froala/design-blocks#quick-start)
-- [What's included?](https://github.com/froala/design-blocks#whats-included)
-- [Bugs and feature requests](https://github.com/froala/design-blocks#bugs-and-feature-requests)
-- [Dependencies](https://github.com/froala/design-blocks#dependencies)
-- [Categories](https://github.com/froala/design-blocks#categories)
-- [Browser support](https://github.com/froala/design-blocks#browser-support)
-- [Community](https://github.com/froala/design-blocks#community)
-- [Development](https://github.com/froala/design-blocks#development)
-- [Contributors](https://github.com/froala/design-blocks#contributors)
-- [Copyright and license](https://github.com/froala/design-blocks#copyright-and-license)
+- [Quick start](#quick-start)
+- [What's included?](#whats-included)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Dependencies](#dependencies)
+- [Categories](#categories)
+- [Browser support](#browser-support)
+- [Community](#community)
+- [Contributors](#contributors)
+- [Copyright and license](#copyright-and-license)
 
 
 ## Quick start
 
-Several quick start options are available:
+There are several ways to start using the Froala Design Blocks:
 
-- [Download the latest release.](https://github.com/froala/design-blocks/archive/1.0.1.zip)
+- [Download the latest release](https://github.com/froala/design-blocks/archive/1.0.1.zip) and then read the [What's included](#whats-included) section below
 - Clone the repo: `git clone https://github.com/froala/design-blocks.git`
 - Install with [npm](https://www.npmjs.com/): `npm install froala-design-blocks`
 
+### Development
+
+The project needs to be compiled, therefore the files in the `src` folder are those we'll be developing on. Don't make changes in the `dist` or `demo` folders as they will be overwritten when `src` is compiled.
+
+#### Get code
+
+```bash
+git clone git@github.com:froala/design-blocks.git
+cd design-blocks
+```
+
+#### Install dependencies and run project
+
+```bash
+npm install
+npm run gulp
+```
+
+With the gulp server running, the project is available at the following address [localhost:8001](http://localhost:8001/). The `src` files are automatically compiled when changes have been made.
+
+### Contributing
+All contributions are more than welcomed. Contributions may close an issue, fix a bug (reported or not reported), add new design blocks, improve the existing code, add new feature, and so on.
+
+The `dev` branch is the default and base branch for the project. It is used for development and all Pull Requests should go there. Please make sure not to commit the `dist` folder in the `dev` branch.
 
 
 ## What's included
@@ -123,24 +146,6 @@ Get updates on Froala Design Blocks' development and chat with the project maint
 - [Google+](https://plus.google.com/+Froala/)
 - [Pinterest](https://pinterest.com/froala/)
 
-
-## Development
-
-#### Get code
-
-```bash
-git clone git@github.com:froala/design-blocks.git
-cd design-blocks
-```
-
-
-
-#### Install dependencies and run project
-
-```bash
-npm install
-npm run gulp
-```
 
 ## Contributors
 
