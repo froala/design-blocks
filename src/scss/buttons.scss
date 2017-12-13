@@ -11,10 +11,6 @@
   border: solid 2px $btn-bg-color;
   @include border-radius(2px);
 
-  + .btn {
-    margin-left: 30px;
-  }
-
   &.btn-empty {
     background-color: transparent;
     color: $btn-bg-color;

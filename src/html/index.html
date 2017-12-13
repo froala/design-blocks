@@ -18,6 +18,16 @@
       z-index: 1000;
     }
 
+    #navigator .navbar-toggler-icon {
+    	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    @media (max-width: 720px) {
+      #navigator {
+        border-bottom: 1px solid #ccc;
+      }
+    }
+
     #navigator a {
       font-size: 14px;
     }
@@ -32,12 +42,12 @@
   <section class="fdb-block" style="background-image: url(imgs/alt_wide_1.svg);">
     <div class="container">
       <div class="row justify-content-start">
-        <div class="col-8 text-left">
+        <div class="col-12 col-sm-10 col-md-8 text-center text-sm-left">
           <h1>Froala Design Blocks</h1>
           <p class="text-h3">Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.</p>
-          <p class="mt-5">
-            <a class="btn btn-black" href="https://github.com/froala/design-blocks"><i class="fa fa-github"></i> Github Docs</a>
-            <a class="btn" href="https://froala.com/design-blocks#playground">Official Website</a>
+          <p class="mt-4">
+            <a class="btn btn-black mr-3 mr-sm-0" href="https://github.com/froala/design-blocks"><i class="fa fa-github"></i> Github Docs</a>
+            <a class="btn ml-sm-3 mr-3 mr-sm-0 mt-3 mt-sm-0" href="https://froala.com/design-blocks#playground">Official Website</a>
           </p>
         </div>
       </div>
@@ -46,18 +56,25 @@
 
   <section class="fdb-block p-2" id="navigator">
     <div class="container-fluid">
-      <p class="m-0 text-center">
-        <a class="btn btn-empty m-1" href="call_to_action.html">Call to action</a>
-        <a class="btn btn-empty m-1" href="contacts.html">Contacts</a>
-        <a class="btn btn-empty m-1" href="contents.html">Contents</a>
-        <a class="btn btn-empty m-1" href="features.html">Features</a>
-        <a class="btn btn-empty m-1" href="footers.html">Footers</a>
-        <a class="btn btn-empty m-1" href="forms.html">Forms</a>
-        <a class="btn btn-empty m-1" href="headers.html">Headers</a>
-        <a class="btn btn-empty m-1" href="pricings.html">Pricings</a>
-        <a class="btn btn-empty m-1" href="teams.html">Teams</a>
-        <a class="btn btn-empty m-1" href="testimonials.html">Testimonials</a>
-      </p>
+      <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler mr-auto ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarNav0">
+          <p class="m-auto">
+            <a class="btn btn-empty m-1" href="call_to_action.html">Call to action</a>
+            <a class="btn btn-empty m-1" href="contacts.html">Contacts</a>
+            <a class="btn btn-empty m-1" href="contents.html">Contents</a>
+            <a class="btn btn-empty m-1" href="features.html">Features</a>
+            <a class="btn btn-empty m-1" href="footers.html">Footers</a>
+            <a class="btn btn-empty m-1" href="forms.html">Forms</a>
+            <a class="btn btn-empty m-1" href="headers.html">Headers</a>
+            <a class="btn btn-empty m-1" href="pricings.html">Pricings</a>
+            <a class="btn btn-empty m-1" href="teams.html">Teams</a>
+            <a class="btn btn-empty m-1" href="testimonials.html">Testimonials</a>
+          </p>
+        </div>
+      </nav>
     </div>
   </section>
 
