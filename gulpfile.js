@@ -29,25 +29,25 @@ var build = function (dest) {
   })
 }
 
-build('demo');
+build('.tmp');
 build('dist');
 
 gulp.task('watch', [], function() {
   watch('dist').pipe(connect.reload());
   watch('src/html', function () {
-    gulp.start(['html-demo']);
+    gulp.start(['html-.tmp']);
   })
   watch('src/imgs', function () {
-    gulp.start(['imgs-demo']);
+    gulp.start(['imgs-.tmp']);
   })
   watch('src/scss', function () {
-    gulp.start(['sass-demo']);
+    gulp.start(['sass-.tmp']);
   });
 })
 
 gulp.task('connect', function () {
     connect.server({
-        root: ['demo', 'node_modules', 'screenshots'],
+        root: ['.tmp', 'node_modules', 'screenshots'],
         port: 8001,
         livereload: true
     });
@@ -74,4 +74,4 @@ gulp.task('screenshots', function(cb) {
 
 gulp.task('dist', ['clean-dist', 'html-dist', 'imgs-dist', 'sass-dist']);
 
-gulp.task('default', ['clean-demo', 'html-demo', 'imgs-demo', 'sass-demo', 'connect', 'watch']);
+gulp.task('default', ['clean-.tmp', 'html-.tmp', 'imgs-.tmp', 'sass-.tmp', 'connect', 'watch']);
