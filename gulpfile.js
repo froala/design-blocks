@@ -6,7 +6,7 @@ var connect = require('gulp-connect');
 var del = require('del');
 var vinylPaths = require('vinyl-paths');
 var utils = require('./utils');
-var jade = require('gulp-jade');
+var pug = require('gulp-pug');
 var fs = require('fs');
 var path = require('path');
 
@@ -16,7 +16,7 @@ function getBlocks(dir) {
       return fs.statSync(path.join(dir, file)).isFile();
     })
     .map(function (file) {
-      return fs.readFileSync(path.join(dir, file), "utf8").split('\n').join('\n    ');
+      return '    ' + fs.readFileSync(path.join(dir, file), "utf8").split('\n').join('\n    ');
     })
 }
 
@@ -41,7 +41,7 @@ var build = function (dest) {
         .pipe(gulp.dest(dest + '/imgs'))
   })
 
-  gulp.task('jade-' + dest, function () {
+  gulp.task('pug-' + dest, function () {
     var blocks = {}
     var blks = ['call_to_action', 'contacts', 'contents', 'features', 'footers', 'forms', 'headers', 'pricings', 'teams', 'testimonials']
     for (var i = 0; i < blks.length; i++) {
@@ -52,8 +52,8 @@ var build = function (dest) {
       blocks: blocks
     };
 
-    gulp.src('./src/html/**/*.jade')
-    .pipe(jade({
+    gulp.src('./src/html/**/*.pug')
+    .pipe(pug({
        locals: LOCALS,
        pretty: true
      }))
@@ -67,10 +67,10 @@ build('dist');
 gulp.task('watch', [], function() {
   watch('dist').pipe(connect.reload());
   watch('src/html', function () {
-    gulp.start(['jade-.tmp']);
+    gulp.start(['pug-.tmp']);
   })
-  watch('src/jade', function () {
-    gulp.start(['jade-.tmp']);
+  watch('src/pug', function () {
+    gulp.start(['pug-.tmp']);
   })
   watch('src/imgs', function () {
     gulp.start(['imgs-.tmp']);
@@ -109,4 +109,4 @@ gulp.task('screenshots', function(cb) {
 
 gulp.task('dist', ['clean-dist', 'html-dist', 'imgs-dist', 'sass-dist']);
 
-gulp.task('default', ['clean-.tmp', 'html-.tmp', 'jade-.tmp', 'imgs-.tmp', 'sass-.tmp', 'connect', 'watch']);
+gulp.task('default', ['clean-.tmp', 'html-.tmp', 'pug-.tmp', 'imgs-.tmp', 'sass-.tmp', 'connect', 'watch']);
