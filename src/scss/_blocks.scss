@@ -133,15 +133,6 @@
   color: $font-color;
 }
 
-.br {
-  @include border-radius(4px);
-  overflow: hidden;
-}
-
-.br-0 {
-  @include border-radius(0 !important);
-}
-
 .heart {
   color: #df584e;
   font-weight: bold;
