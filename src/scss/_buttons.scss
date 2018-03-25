@@ -5,7 +5,7 @@
   display: inline-block;
   @include box-sizing(border-box);
   text-decoration: none;
-  border: solid 2px $btn-bg-color;
+  border: 2px solid $btn-bg-color;
   @include border-radius(2px);
 
   &.btn-empty {

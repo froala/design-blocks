@@ -34,7 +34,7 @@
   }
 
   .fdb-touch {
-    border-top: solid 5px $primary-color;
+    border-top: 5px solid theme-color("primary");
   }
 
   // Headings
@@ -196,7 +196,7 @@ header {
 }
 
 header + header {
-  border-top: solid 1px #EEE;
+  border-top: 1px solid #EEE;
 }
 
 .bg-dark {
