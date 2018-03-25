@@ -1,7 +1,5 @@
 // Colors.
-$primary-color: #528bff;
-$white: #FFFFFF;
-$black: #000000;
+$theme-colors: ( "primary": #528bff );
 $font-color: #444444;
 
 // Sizes.
@@ -14,7 +12,7 @@ $block-padding: 100px;
 
 // Buttons.
 $btn-padding: 9px 26px;
-$btn-bg-color: $primary-color;
+$btn-bg-color: theme-color("primary");
 $btn-text-color: #FFF;
 $btn-hover-text-color: #FFF;
 $btn-hover-bg-color: darken($btn-bg-color, 10%);
@@ -28,8 +26,6 @@ $btn-black-bg-color: $black;
 $btn-black-text-color: $white;
 $btn-black-hover-text-color: #FFF;
 $btn-black-hover-bg-color: lighten($btn-black-bg-color, 5%);
-
-$btn-border-radius: 10px;
 
 $btn-shadow: 1;
 

@@ -157,7 +157,7 @@ header {
       color: #777;
 
       &:hover {
-        color: $primary-color;
+        color: theme-color("primary");
       }
     }
 
@@ -178,7 +178,7 @@ header {
         color: #dcdcdc;
 
         &:hover {
-          color: $primary-color;
+          color: theme-color("primary");
         }
       }
 
