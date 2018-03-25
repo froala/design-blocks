@@ -1,0 +1,26 @@
+footer {
+  padding: 30px 0 !important;
+
+  &.footer-large {
+    padding: 100px 0 !important
+  }
+
+  .flex-column {
+    .nav-link {
+      padding-left: 0;
+    }
+  }
+
+  &.bg-dark {
+    background: #2d313c;
+    color: mix($black, $white, 5%);
+
+    a {
+      color: mix($black, $white, 5%);
+    }
+  }
+
+  a {
+    color: $font-color;
+  }
+}
