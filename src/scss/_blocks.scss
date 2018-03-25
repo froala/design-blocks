@@ -11,6 +11,7 @@
   background-position: center;
   overflow: hidden;
   background-color: $white;
+  border-bottom: 1px solid gray("200");
 
   &.fdb-viewport {
     min-height: calc(100% - 2 * #{$block-padding});
