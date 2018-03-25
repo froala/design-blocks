@@ -29,6 +29,7 @@
     "dist": "gulp dist"
   },
   "devDependencies": {
+    "autoprefixer": "^8.2.0",
     "del": "^3.0.0",
     "fs-extra": "^4.0.3",
     "gulp": "^3.9.1",
@@ -36,6 +37,7 @@
     "gulp-copy": "^1.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-open": "^2.0.0",
+    "gulp-postcss": "^7.0.1",
     "gulp-sass": "^3.1.0",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
