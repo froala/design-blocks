@@ -2,41 +2,23 @@
   box-sizing: $sizing;
 }
 
-@mixin border-radius($radius) {
-  border-radius: $radius;
-}
-
-@mixin box-sizing($val) {
-  box-sizing: $val;
-}
-
-@mixin box-shadow ($shadow: none) {
+@mixin box-shadow($shadow: none) {
   box-shadow: $shadow;
 }
 
 @mixin font-smoothing($value: on) {
   @if $value == on {
-    -webkit-font-smoothing:   antialiased;
-    -moz-osx-font-smoothing:  grayscale;
+    -webkit-font-smoothing:  antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   @else {
-    -webkit-font-smoothing:   subpixel-antialiased;
-    -moz-osx-font-smoothing:  auto;
+    -webkit-font-smoothing:  subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
-@mixin display-flex {
-  display: flex;
-}
-
-@mixin opacity($opacity) {
-  opacity: $opacity;
-  $opacity-ie: $opacity * 100;
-  filter: alpha(opacity=$opacity-ie); //IE8
-}
-
-@mixin froala-box-shadow ($level: 1, $direction: 1) {
+@mixin froala-box-shadow($level: 1, $direction: 1) {
   $shadow: none;
 
   @if $level == 1 {
