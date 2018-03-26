@@ -11,24 +11,12 @@ $heading-margin: 0.7em;
 $block-padding: 100px;
 
 // Buttons.
-$btn-padding: 9px 26px;
-$btn-bg-color: theme-color("primary");
-$btn-text-color: #FFF;
-$btn-hover-text-color: #FFF;
-$btn-hover-bg-color: darken($btn-bg-color, 10%);
+$btn-padding-x: 26px;
+$btn-padding-y: 9px;
 
-$btn-white-bg-color: $white;
-$btn-white-text-color: $black;
-$btn-white-hover-text-color: $btn-white-text-color;
-$btn-white-hover-bg-color: #DEDEDE;
+$btn-border-radius: 2px;
 
-$btn-black-bg-color: $black;
-$btn-black-text-color: $white;
-$btn-black-hover-text-color: #FFF;
-$btn-black-hover-bg-color: lighten($btn-black-bg-color, 5%);
-
-$btn-shadow: 1;
-
+// Headings
 $headings: (
   h1: 2.75rem,
   h2: 2rem,
