@@ -21,10 +21,6 @@
     }
   }
 
-  .fdb-touch {
-    border-top: 5px solid theme-color("primary");
-  }
-
   // Headings
   @each $h, $v in $headings {
     #{$h}, .text-#{$h} {
