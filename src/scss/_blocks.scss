@@ -47,38 +47,6 @@
     }
   }
 
-  .col-fill-left {
-    width: 50%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-
-    + div {
-      position: relative;
-      z-index: 2;
-    }
-  }
-
-  .col-fill-right {
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-
-    + div {
-      position: relative;
-      z-index: 2;
-    }
-  }
-
   img.fdb-icon {
     width: auto;
     width: 60px;
