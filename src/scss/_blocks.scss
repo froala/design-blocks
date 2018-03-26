@@ -25,15 +25,6 @@
     color: mix($black, $white, 5%);
   }
 
-  .fdb-box {
-    background: $white;
-    color: $font-color;
-    padding: 60px 40px;
-    @include border-radius(4px);
-    @include froala-box-shadow(1);
-    overflow: hidden;
-  }
-
   .fdb-touch {
     border-top: 5px solid theme-color("primary");
   }
