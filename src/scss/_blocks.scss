@@ -1,33 +1,18 @@
 .fdb-block {
-  font-family: 'Roboto', sans-serif;
-  font-size: $font-size;
-  line-height: $line-height;
   @include font-smoothing(on);
   text-rendering: optimizelegibility;
   padding: $block-padding 0;
-  color: $font-color;
   position: relative;
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  background-color: $white;
-  border-bottom: 1px solid gray("200");
+  border-bottom: $border-width solid gray("200");
 
   &.fdb-viewport {
     min-height: calc(100% - 2 * #{$block-padding});
 
     .container {
       min-height: calc(100% - 2 * #{$block-padding});
-    }
-  }
-
-  // Headings
-  @each $h, $v in $headings {
-    #{$h}, .text-#{$h} {
-      font-size: $v;
-      margin-bottom: .5em;
-      margin-top: .3em;
-      font-weight: 400;
     }
   }
 
