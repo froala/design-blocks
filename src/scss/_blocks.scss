@@ -17,20 +17,20 @@
   }
 
   img {
-    @include border-radius(4px);
+    @include border-radius(.25rem);
 
     + p, + h3, + h4 {
-      margin-top: 20px;
+      margin-top: 1.25rem;
     }
 
     + h1, + h2 {
-      margin-top: 40px;
+      margin-top: 2.5rem;
     }
   }
 
   img.fdb-icon {
     width: auto;
-    width: 60px;
+    width: 3.75rem;
   }
 }
 

@@ -1,5 +1,5 @@
 header {
   & + header {
-    border-bottom: 1px solid gray("200");
+    border-bottom: $border-width solid gray("200");
   }
 }

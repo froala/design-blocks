@@ -1,20 +1,15 @@
 // Colors.
 $theme-colors: ( "primary": #528bff );
-$font-color: #444444;
-
-// Sizes.
-$font-size: 16px;
-$line-height: 1.5;
-$heading-margin: 0.7em;
+$body-color: $gray-800;
 
 // Block
-$block-padding: 100px;
+$block-padding: 6.25rem;
 
 // Buttons.
-$btn-padding-x: 26px;
-$btn-padding-y: 9px;
+$btn-padding-x: 1.5rem;
+$btn-padding-y: .5rem;
 
-$btn-border-radius: 2px;
+$btn-border-radius: .125rem;
 
 // Headings
 $headings-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
