@@ -4,31 +4,6 @@
   padding: $block-padding 0;
   position: relative;
   border-bottom: $border-width solid gray("200");
-
-  &.fdb-viewport {
-    min-height: calc(100% - 2 * #{$block-padding});
-
-    .container {
-      min-height: calc(100% - 2 * #{$block-padding});
-    }
-  }
-
-  img {
-    @include border-radius(.25rem);
-
-    + p, + h3, + h4 {
-      margin-top: 1.25rem;
-    }
-
-    + h1, + h2 {
-      margin-top: 2.5rem;
-    }
-  }
-
-  img.fdb-icon {
-    width: auto;
-    width: 3.75rem;
-  }
 }
 
 .sl-1 {
