@@ -3,9 +3,6 @@
   text-rendering: optimizelegibility;
   padding: $block-padding 0;
   position: relative;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
   border-bottom: $border-width solid gray("200");
 
   &.fdb-viewport {
