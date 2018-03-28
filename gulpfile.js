@@ -16,7 +16,7 @@ var build = function (dest) {
 
   gulp.task('sass-' + dest, function () {
     gulp.src(['src/scss/froala.scss'])
-      .pipe(sass())
+      .pipe(sass({outputStyle: 'expanded'}))
       .pipe(postcss([ autoprefixer() ]))
       .pipe(gulp.dest(dest + '/css'))
   });
