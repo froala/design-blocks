@@ -1,0 +1,10 @@
+.opacity-0 {
+  opacity: 0;
+}
+
+@for $i from 1 through 9 {
+  $opacity: ($i / 10);
+  .opacity-#{($i * 10)}{
+    opacity: $opacity;
+  }
+}
