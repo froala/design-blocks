@@ -71,8 +71,8 @@ Within the download archive you'll find the following directories and files, log
 design-blocks/
 ├── dist/
 │   ├── css/
-│   │   ├── froala_blocks.css
-│   │   └── froala_blocks.min.css
+│   │   ├── froala.css
+│   │   └── froala.min.css
 │   └── imgs/
 │   │── call_to_action.html
 │   │── contacts.html
