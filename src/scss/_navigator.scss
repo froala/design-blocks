@@ -3,17 +3,19 @@
   top: 0;
   z-index: 1000;
 
-  @media (max-width: 720px) {
+  @include media-breakpoint-down(sm) {
     & {
-      border-bottom: $border-width solid #ccc;
+      border-bottom: $border-width solid grey("600");
     }
   }
 
-  a {
-    font-size: .875rem;
+  @include media-breakpoint-down(lg) {
+    .btn {
+      margin-bottom: $spacer/2;
+    }
   }
 
-  & + section {
-    padding: 15.5rem 0;
+  .btn {
+    font-size: .875rem;
   }
 }
