@@ -30,7 +30,8 @@ $brand-popular: (
   "snapchat":   #fffc00,
   "twitter":    #55acee,
   "whatsapp":   #4dc247,
-  "youtube":    #bb0000
+  "youtube":    #bb0000,
+  "xbrand":     #7d7d7d
 );
 
 @each $name, $color in $brand-popular {
