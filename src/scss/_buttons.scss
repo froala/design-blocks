@@ -1,10 +1,6 @@
 .btn {
   @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
 
-  &.btn-shadow {
-    @extend .shadow-sm;
-  }
-
   &.btn-round {
     border-radius: 1.25rem;
     min-width: 9rem;
