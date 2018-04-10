@@ -3,9 +3,3 @@
     border-bottom: .25rem solid theme-color("primary");
   }
 }
-
-.team-3.fdb-block {
-  img {
-    @include froala-box-shadow(1);
-  }
-}

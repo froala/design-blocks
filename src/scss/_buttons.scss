@@ -2,7 +2,7 @@
   @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
 
   &.btn-shadow {
-    @include froala-box-shadow(1);
+    @extend .shadow-sm;
   }
 
   &.btn-round {
