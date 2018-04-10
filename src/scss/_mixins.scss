@@ -1,7 +1,3 @@
-@mixin box-shadow($shadow: none) {
-  box-shadow: $shadow;
-}
-
 @mixin font-smoothing($value: on) {
   @if $value == on {
     -webkit-font-smoothing:  antialiased;
