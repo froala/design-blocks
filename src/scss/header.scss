@@ -1,0 +1,5 @@
+header {
+  & + header {
+    border-bottom: $border-width solid gray("200");
+  }
+}

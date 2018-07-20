@@ -1,0 +1,21 @@
+#navigator {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  @include media-breakpoint-down(sm) {
+    & {
+      border-bottom: $border-width solid grey("600");
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .btn {
+      margin-bottom: $spacer/2;
+    }
+  }
+
+  .btn {
+    font-size: .875rem;
+  }
+}

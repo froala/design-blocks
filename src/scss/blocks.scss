@@ -1,0 +1,7 @@
+.fdb-block {
+  @include font-smoothing(on);
+  text-rendering: optimizelegibility;
+  padding: $block-padding 0;
+  position: relative;
+  border-bottom: $border-width solid gray("200");
+}

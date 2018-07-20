@@ -1,11 +1,13 @@
-var gulp = require('gulp');
-var watch = require('gulp-watch');
-var sass = require('gulp-sass');
-var copy = require('gulp-copy');
-var connect = require('gulp-connect');
-var del = require('del');
-var vinylPaths = require('vinyl-paths');
-var utils = require('./utils');
+var autoprefixer = require('autoprefixer');
+var connect      = require('gulp-connect');
+var copy         = require('gulp-copy');
+var del          = require('del');
+var gulp         = require('gulp');
+var postcss      = require('gulp-postcss');
+var sass         = require('gulp-sass');
+var utils        = require('./utils');
+var vinylPaths   = require('vinyl-paths');
+var watch        = require('gulp-watch');
 
 var build = function (dest) {
   gulp.task('clean-' + dest, function () {
@@ -13,19 +15,20 @@ var build = function (dest) {
   })
 
   gulp.task('sass-' + dest, function () {
-      gulp.src(['src/scss/froala_blocks.scss'])
-          .pipe(sass())
-          .pipe(gulp.dest(dest + '/css'))
+    gulp.src(['src/scss/froala_blocks.scss'])
+      .pipe(sass({outputStyle: 'expanded'}))
+      .pipe(postcss([ autoprefixer() ]))
+      .pipe(gulp.dest(dest + '/css'))
   });
 
   gulp.task('html-' + dest, function () {
     gulp.src(['src/html/**/*.html'])
-        .pipe(gulp.dest(dest))
+      .pipe(gulp.dest(dest))
   })
 
   gulp.task('imgs-' + dest, function () {
     gulp.src(['src/imgs/**/*'])
-        .pipe(gulp.dest(dest + '/imgs'))
+      .pipe(gulp.dest(dest + '/imgs'))
   })
 }
 
@@ -46,11 +49,11 @@ gulp.task('watch', [], function() {
 })
 
 gulp.task('connect', function () {
-    connect.server({
-        root: ['.tmp', 'node_modules', 'screenshots'],
-        port: 8001,
-        livereload: true
-    });
+  connect.server({
+    root: ['.tmp', 'node_modules', 'screenshots'],
+    port: 8001,
+    livereload: true
+  });
 });
 
 gulp.task('screenshots', function(cb) {
