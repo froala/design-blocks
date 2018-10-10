@@ -107,6 +107,6 @@ gulp.task('screenshots', function(cb) {
   });
 });
 
-gulp.task('dist', ['clean-dist', 'html-dist', 'imgs-dist', 'sass-dist']);
+gulp.task('dist', ['clean-dist', 'html-dist', 'pug-dist', 'imgs-dist', 'sass-dist']);
 
 gulp.task('default', ['clean-.tmp', 'html-.tmp', 'pug-.tmp', 'imgs-.tmp', 'sass-.tmp', 'connect', 'watch']);
