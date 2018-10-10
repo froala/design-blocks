@@ -10,7 +10,7 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 **Discuss it on [Product Hunt](https://www.producthunt.com/posts/froala-design-blocks-2) 🦄**
 
-<p><a href="https://www.froala.com/design-blocks#playground">Explore Design Blocks »</a></p>
+<p><a href="https://www.froala.com/design-blocks/webpage-builder">Design Blocks Builder »</a></p>
 <p><a href="https://www.froala.com/wysiwyg-editor">WYSIWYG HTML Editor</a> · <a href="https://www.froala.com/pages">Pages</a> · <a href="https://www.froala.com/blog">Blog</a> · <a href="https://github.com/froala/design-blocks/archive/master.zip">Download</a></p>
 
 ![Design Blocks](https://raw.githubusercontent.com/froala/design-blocks/master/design-blocks.jpg)
@@ -32,6 +32,7 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 There are several ways to start using the Froala Design Blocks:
 
+- [Use the builder](https://www.froala.com/design-blocks/webpage-builder)
 - [Download the latest release](https://github.com/froala/design-blocks/archive/1.0.2.zip) and then read the [What's included](#whats-included) section below
 - Clone the repo: `git clone https://github.com/froala/design-blocks.git`
 - Install with [npm](https://www.npmjs.com/): `npm install froala-design-blocks`
