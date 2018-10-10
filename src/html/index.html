@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Froala Design Blocks</title>
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
   <script src="http://localhost:35729/livereload.js"></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   <link type="text/css" rel="stylesheet" href="./css/froala_blocks.css">
 
@@ -19,7 +20,7 @@
     }
 
     #navigator .navbar-toggler-icon {
-    	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     }
 
     @media (max-width: 720px) {
@@ -32,9 +33,10 @@
       font-size: 14px;
     }
 
-    #navigator + section {
+    #navigator+section {
       padding: 250px 0;
     }
+
   </style>
 </head>
 
@@ -46,7 +48,7 @@
           <h1>Froala Design Blocks</h1>
           <p class="text-h3">Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.</p>
           <p class="mt-4">
-            <a class="btn btn-black mr-3 mr-sm-0" href="https://github.com/froala/design-blocks"><i class="fa fa-github"></i> Github Docs</a>
+            <a class="btn btn-black mr-3 mr-sm-0" href="https://github.com/froala/design-blocks"><i class="fab fa-github"></i> Github Docs</a>
             <a class="btn ml-sm-3 mr-3 mr-sm-0 mt-3 mt-sm-0" href="https://froala.com/design-blocks#playground">Official Website</a>
           </p>
         </div>
@@ -82,25 +84,25 @@
   </div>
 
   <script>
-      var get = function (url, callback) {
-        var xhr = new XMLHttpRequest();
+    var get = function(url, callback) {
+      var xhr = new XMLHttpRequest();
 
-        xhr.onreadystatechange = function () {
-          if (xhr.readyState == 4 && xhr.status == 200) {
-            var txt = xhr.responseText;
-            txt = txt.split('<body>')[1].split('</body>')[0];
-            callback(txt);
-          }
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          var txt = xhr.responseText;
+          txt = txt.split('<body>')[1].split('</body>')[0];
+          callback(txt);
         }
-
-        xhr.open("GET", url, false );
-        xhr.send();
       }
 
-    var chooseBlock = function (e) {
+      xhr.open("GET", url, false);
+      xhr.send();
+    }
+
+    var chooseBlock = function(e) {
       e.preventDefault();
 
-      get(this.href, function (resp) {
+      get(this.href, function(resp) {
         document.querySelector('#playground').innerHTML = resp;
       })
     }
@@ -112,10 +114,12 @@
 
       el.addEventListener('click', chooseBlock);
     }
+
   </script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
