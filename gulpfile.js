@@ -6,10 +6,23 @@ var connect = require('gulp-connect');
 var del = require('del');
 var vinylPaths = require('vinyl-paths');
 var utils = require('./utils');
+var pug = require('gulp-pug');
+var fs = require('fs');
+var path = require('path');
+
+function getBlocks(dir) {
+  return fs.readdirSync(dir)
+    .filter(function(file) {
+      return fs.statSync(path.join(dir, file)).isFile();
+    })
+    .map(function (file) {
+      return '    ' + fs.readFileSync(path.join(dir, file), "utf8").split('\n').join('\n    ');
+    })
+}
 
 var build = function (dest) {
   gulp.task('clean-' + dest, function () {
-    del.sync('dist/**/*');
+    del.sync(dest + '/**/*');
   })
 
   gulp.task('sass-' + dest, function () {
@@ -19,13 +32,32 @@ var build = function (dest) {
   });
 
   gulp.task('html-' + dest, function () {
-    gulp.src(['src/html/**/*.html'])
+    gulp.src(['src/html/index.html', 'src/html/css.html'])
         .pipe(gulp.dest(dest))
   })
 
   gulp.task('imgs-' + dest, function () {
     gulp.src(['src/imgs/**/*'])
         .pipe(gulp.dest(dest + '/imgs'))
+  })
+
+  gulp.task('pug-' + dest, function () {
+    var blocks = {}
+    var blks = ['call_to_action', 'contacts', 'contents', 'features', 'footers', 'forms', 'headers', 'pricings', 'teams', 'testimonials']
+    for (var i = 0; i < blks.length; i++) {
+      blocks[blks[i]] = getBlocks('src/html/' + blks[i])
+    }
+
+    var LOCALS = {
+      blocks: blocks
+    };
+
+    gulp.src('./src/html/**/*.pug')
+    .pipe(pug({
+       locals: LOCALS,
+       pretty: true
+     }))
+   .pipe(gulp.dest(dest))
   })
 }
 
@@ -35,7 +67,10 @@ build('dist');
 gulp.task('watch', [], function() {
   watch('dist').pipe(connect.reload());
   watch('src/html', function () {
-    gulp.start(['html-.tmp']);
+    gulp.start(['pug-.tmp']);
+  })
+  watch('src/pug', function () {
+    gulp.start(['pug-.tmp']);
   })
   watch('src/imgs', function () {
     gulp.start(['imgs-.tmp']);
@@ -72,6 +107,6 @@ gulp.task('screenshots', function(cb) {
   });
 });
 
-gulp.task('dist', ['clean-dist', 'html-dist', 'imgs-dist', 'sass-dist']);
+gulp.task('dist', ['clean-dist', 'html-dist', 'pug-dist', 'imgs-dist', 'sass-dist']);
 
-gulp.task('default', ['clean-.tmp', 'html-.tmp', 'imgs-.tmp', 'sass-.tmp', 'connect', 'watch']);
+gulp.task('default', ['clean-.tmp', 'html-.tmp', 'pug-.tmp', 'imgs-.tmp', 'sass-.tmp', 'connect', 'watch']);
