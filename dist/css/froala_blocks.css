@@ -11,9 +11,19 @@
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px; }
+  .btn.btn-accent {
+    background-color: #FFEA00;
+    border: solid 2px #FFEA00;
+    color: #000; }
+    .btn.btn-accent:hover {
+      color: #000;
+      background-color: #ccbb00;
+      border-color: #ccbb00; }
   .btn.btn-empty {
     background-color: transparent;
     color: #528bff; }
+    .btn.btn-empty.btn-accent {
+      color: #FFEA00; }
   .btn:hover {
     color: #FFF;
     background-color: #1f69ff;
