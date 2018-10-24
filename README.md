@@ -30,12 +30,37 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Quick start
 
-There are several ways to start using the Froala Design Blocks:
+### Usage
+
+1. **Download Froala Design Blocks.** There are several ways to start using the Froala Design Blocks:
 
 - [Use the builder](https://www.froala.com/design-blocks/webpage-builder)
-- [Download the latest release](https://github.com/froala/design-blocks/archive/1.0.2.zip) and then read the [What's included](#whats-included) section below
+- [Download the latest release](https://github.com/froala/design-blocks/archive/1.0.2.zip) and then read the [What's included](#whats-included) section below.
 - Clone the repo: `git clone https://github.com/froala/design-blocks.git`
 - Install with [npm](https://www.npmjs.com/): `npm install froala-design-blocks`
+
+2. **Design Blocks Skeleton.** You can use the following code layout as a starting point.
+
+   ```html
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <title>Froala Design Blocks - Skeleton</title>
+       <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+       <script src="http://localhost:35729/livereload.js"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+       <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/1.0.2/css/froala_blocks.min.css">
+     </head>
+       
+     <body>
+         <!-- Insert HTML for contents. -->
+     </body>
+   </html>    
+   ```
+
+3. **Add design blocks.** Once you have the Froala Design Blocks basic HTML structure in place, start browsing the design blocks that you want to use and copy/paste the HTML for them.
 
 ### Development
 
@@ -153,6 +178,8 @@ Get updates on Froala Design Blocks' development and chat with the project maint
 Special thanks to everyone who contributed to getting the Froala Design Blocks to the current state.
 
 - [ Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for the images
+- [ Creative Tim](https://www.creative-tim.com/) - design blocks PSDs: https://www.creative-tim.com/tools/froala
+- [Reaction](https://reaction.ca) - design blocks Sketches: https://reaction.ca/froala-design-block-sketch-template/
 
 
 
