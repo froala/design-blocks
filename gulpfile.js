@@ -9,6 +9,8 @@ var utils = require('./utils');
 var pug = require('gulp-pug');
 var fs = require('fs');
 var path = require('path');
+var cssmin = require('gulp-cssmin');
+var rename = require('gulp-rename');
 
 function getBlocks(dir) {
   return fs.readdirSync(dir)
@@ -28,6 +30,9 @@ var build = function (dest) {
   gulp.task('sass-' + dest, function () {
       gulp.src(['src/scss/froala_blocks.scss'])
           .pipe(sass())
+          .pipe(gulp.dest(dest + '/css'))
+          .pipe(cssmin())
+          .pipe(rename({suffix: '.min'}))
           .pipe(gulp.dest(dest + '/css'))
   });
 
