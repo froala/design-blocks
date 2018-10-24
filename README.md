@@ -19,18 +19,17 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 - [Quick start](#quick-start)
 - [What's included?](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Dependencies](#dependencies)
 - [Categories](#categories)
 - [Browser support](#browser-support)
 - [Community](#community)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Contributing guidelines](#contributing-guidelines)
 - [Contributors](#contributors)
 - [Copyright and license](#copyright-and-license)
 
 
 ## Quick start
-
-### Usage
 
 1. **Download Froala Design Blocks.** There are several ways to start using the Froala Design Blocks:
 
@@ -61,30 +60,6 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 3. **Add design blocks.** Once you have the Froala Design Blocks basic HTML structure in place, start browsing the design blocks that you want to use and copy/paste the HTML for them.
 
-### Development
-
-The project needs to be compiled, therefore the files in the `src` folder are those we'll be developing on. Don't make changes in the `dist` or `demo` folders as they will be overwritten when `src` is compiled.
-
-#### Get code
-
-```bash
-git clone git@github.com:froala/design-blocks.git
-cd design-blocks
-```
-
-#### Install dependencies and run project
-
-```bash
-npm install
-npm run gulp
-```
-
-With the gulp server running, the project is available at the following address [localhost:8001](http://localhost:8001/). The `src` files are automatically compiled when changes have been made.
-
-### Contributing
-All contributions are more than welcomed. Contributions may close an issue, fix a bug (reported or not reported), add new design blocks, improve the existing code, add new feature, and so on.
-
-The `dev` branch is the default and base branch for the project. It is used for development and all Pull Requests should go there. Please make sure not to commit the `dist` folder in the `dev` branch.
 
 
 ## What's included
@@ -116,9 +91,7 @@ design-blocks/
 
 We provide compiled CSS (`froala_blocks.css`), as well as compiled and minified CSS (`froala_blocks.min.css`). Also, in the downloaded archive you will find useful images and PSD files that you can use to create new backgrounds. In the `screenshots` folder, there are the screenshots of all design blocks.
 
-## Bugs and feature requests
 
-Have a bug or a feature request? Please first read the issue guidelines and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/froala/design-blocks/issues/new).
 
 ## Dependencies
 
@@ -127,6 +100,7 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 - **Font Awesome**. We're using the amazing Font Awesome library for the social network icons.
 
 - **Google Fonts**. By default, the Design Blocks toolkit is built using the Roboto font, however that can easily be changed to other fonts.
+
 
 
 ## Categories
@@ -160,6 +134,13 @@ At the moment, we aim to support all major web browsers. Any issue in the browse
 (Current - 1) and Current means that we support the current stable version of the browser and the version that precedes it.
 
 
+
+## Bugs and feature requests
+
+Have a bug or a feature request? Please first read the issue guidelines and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/froala/design-blocks/issues/new).
+
+
+
 ## Community
 
 Get updates on Froala Design Blocks' development and chat with the project maintainers and community members:
@@ -172,16 +153,51 @@ Get updates on Froala Design Blocks' development and chat with the project maint
 - [Pinterest](https://pinterest.com/froala/)
 
 
+
+## Contributing guidelines
+
+All contributions are more than welcomed. Contributions may close an issue, fix a bug (reported or not reported), add new design blocks, improve the existing code, add new feature, and so on.
+
+The `dev` branch is the default and base branch for the project. It is used for development and all Pull Requests should go there. Please make sure not to commit the `dist` folder in the `dev` branch.
+
+#### Development
+
+The project needs to be compiled, therefore the files in the `src` folder are those we'll be developing on. Don't make changes in the `dist` or `demo` folders as they will be overwritten when `src` is compiled.
+
+1. Get code
+
+```bash
+git clone git@github.com:froala/design-blocks.git
+cd design-blocks
+```
+
+2. Install dependencies and run project
+
+```bash
+npm install
+npm run gulp
+```
+
+With the gulp server running, the project is available at the following address [localhost:8001](http://localhost:8001/). The `src` files are automatically compiled when changes have been made.
+
+#### Versioning
+Through the development of new versions, we're going use the Semantic Versioning: https://docs.npmjs.com/getting-started/semantic-versioning. Example: 1.0.0.
+- Major release: increment the first digit and reset middle and last digits to zero. Introduces major changes that might break backward compatibility. E.g. 2.0.0
+- Minor release: increment the middle digit and reset last digit to zero. It would fix bugs and also add new features without breaking backward compatibility. E.g. 1.1.0
+- Patch release: increment the third digit. It would fix bugs and keep backward compatibility. E.g. 1.0.1
+
+
+
 ## Contributors
 
-Special thanks to everyone who contributed to getting the Froala Design Blocks to the current state.
+Special thanks to everyone who contributed to getting the Froala Design Blocks to the current state.  🙏
 
-- [ Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for the images
-- [ Creative Tim](https://www.creative-tim.com/) - design blocks PSDs: https://www.creative-tim.com/tools/froala
+- [Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for the images
+- [Creative Tim](https://www.creative-tim.com/) - design blocks PSDs: https://www.creative-tim.com/tools/froala
 - [Reaction](https://reaction.ca) - design blocks Sketches: https://reaction.ca/froala-design-block-sketch-template/
 
 
 
 ## Copyright and license
 
-Code and documentation copyright 2017 [Froala Labs](https://www.froala.com/). Code released under the [Froala Open Web Design License](https://github.com/froala/design-blocks/blob/master/LICENSE).
+Code and documentation copyright 2018 [Froala Labs](https://www.froala.com/). Code released under the [Froala Open Web Design License](https://github.com/froala/design-blocks/blob/master/LICENSE).
