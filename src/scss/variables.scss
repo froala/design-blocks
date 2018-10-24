@@ -1,5 +1,6 @@
 // Colors.
 $primary-color: #528bff;
+$accent-color: #FFEA00;
 $white: #FFFFFF;
 $black: #000000;
 $font-color: #444444;
@@ -18,6 +19,11 @@ $btn-bg-color: $primary-color;
 $btn-text-color: #FFF;
 $btn-hover-text-color: #FFF;
 $btn-hover-bg-color: darken($btn-bg-color, 10%);
+
+$btn-accent-bg-color: $accent-color;
+$btn-accent-text-color: #000;
+$btn-accent-hover-text-color: #000;
+$btn-accent-hover-bg-color: darken($btn-accent-bg-color, 10%);
 
 $btn-white-bg-color: $white;
 $btn-white-text-color: $black;
