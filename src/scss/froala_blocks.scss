@@ -2,13 +2,13 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 
-@import './buttons';
-@import './teams';
 @import './variables';
 @import './mixins';
 
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/type";
+@import './buttons';
+@import './teams';
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6,
   @include font-smoothing(on);
   text-rendering: optimizelegibility;
   padding: $block-padding 0;
-  color: $font-color;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -40,7 +39,6 @@ h1, h2, h3, h4, h5, h6,
 
   .fdb-box {
     background: $white;
-    color: $font-color;
     padding: 60px 40px;
     @include border-radius(4px);
     @include froala-box-shadow(1);

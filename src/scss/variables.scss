@@ -17,23 +17,10 @@ $block-padding: 100px;
 
 $btn-shadow: 1;
 
-// $headings: (
-//   h1: 2.75rem,
-//   h2: 2rem,
-//   h3: 1.125rem,
-//   h4: 1rem,
-//   h5: 0.9rem,
-//   h6: 0.75rem
-// );
-//
-// $headings-margin-bottom: (
-//   h1: 1em,
-//   h2: 1em,
-//   h3: 1em,
-//   h4: 10px,
-//   h5: 10px,
-//   h6: 10px
-// );
+// Override Bootstrap.
+$font-size-base: 16px;
+$headings-line-height: 1.5;
+$headings-font-weight: 400;
 
 $h1-font-size: 2.75rem;
 $h2-font-size: 2rem;
@@ -44,15 +31,15 @@ $h6-font-size: 0.75rem;
 $headings-margin-bottom: 0.5rem;
 $headings-margin-top: 0.3rem;
 
-// Override Bootstrap.
-$font-size-base: 16px;
-$headings-line-height: 1.5;
-$headings-font-weight: 400;
+$body-color: $font-color;
 
 // Update Bootstrap theme colors.
-$theme-colors: (
-  primary: $primary-color,
-  secondary: $accent-color
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    primary: $primary-color,
+    secondary: $accent-color
+  )
 );
 
 // Update buttons padding.
