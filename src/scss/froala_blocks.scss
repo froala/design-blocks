@@ -207,11 +207,6 @@ header + header {
   color: $font-color;
 }
 
-.heart {
-  color: #df584e;
-  font-weight: bold;
-}
-
 .sl-1 {
   @include froala-box-shadow(1);
   z-index: 2;
