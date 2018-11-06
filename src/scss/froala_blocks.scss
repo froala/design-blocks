@@ -206,16 +206,3 @@ header + header {
   background-color: #fafafa;
   color: $font-color;
 }
-
-.heart {
-  color: #df584e;
-  font-weight: bold;
-}
-
-table {
-  tr.no-border {
-    th, td {
-      border-top: 0;
-    }
-  }
-}
