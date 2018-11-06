@@ -195,7 +195,7 @@ Special thanks to everyone who contributed to getting the Froala Design Blocks t
 - [Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for the images
 - [Creative Tim](https://www.creative-tim.com/) - design blocks PSDs: https://www.creative-tim.com/tools/froala
 - [Reaction](https://reaction.ca) - design blocks Sketches: https://reaction.ca/froala-design-block-sketch-template/
-
+- [m5o](https://github.com/m5o)
 
 
 ## Copyright and license
