@@ -212,11 +212,6 @@ header + header {
   font-weight: bold;
 }
 
-.sl-1 {
-  @include froala-box-shadow(1);
-  z-index: 2;
-}
-
 table {
   tr.no-border {
     th, td {
