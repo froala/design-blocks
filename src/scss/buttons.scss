@@ -1,14 +1,12 @@
 @import './variables';
 @import './mixins';
 
-.btn {
-  padding-left: $btn-padding;
-  padding-right: $btn-padding;
-  display: inline-block;
-  @include box-sizing(border-box);
-  text-decoration: none;
-  @include border-radius(2px);
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/mixins";
 
+@import "node_modules/bootstrap/scss/buttons";
+
+.btn {
   &.btn-shadow {
     @include froala-box-shadow($btn-shadow);
   }
@@ -16,9 +14,5 @@
   &.btn-round {
     @include border-radius(20px);
     min-width: 150px;
-  }
-
-  &[class*="btn-outline"] {
-    border-width: 2px;
   }
 }

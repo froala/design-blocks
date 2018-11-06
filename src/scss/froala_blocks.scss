@@ -1,12 +1,21 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
 @import './buttons';
 @import './teams';
-@import './mixins';
 @import './variables';
+@import './mixins';
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: $headings-margin-top;
+}
 
 .fdb-block {
-  font-family: 'Roboto', sans-serif;
-  font-size: $font-size;
-  line-height: $line-height;
   @include font-smoothing(on);
   text-rendering: optimizelegibility;
   padding: $block-padding 0;
@@ -40,20 +49,6 @@
 
   .fdb-touch {
     border-top: solid 5px $primary-color;
-  }
-
-  // Headings
-  @each $h, $v in $headings {
-    #{$h}, .text-#{$h} {
-      font-size: $v;
-      margin-bottom: .5em;
-      margin-top: .3em;
-      font-weight: 400;
-    }
-  }
-
-  .font-weight-light {
-    font-weight: 300;
   }
 
   img {
@@ -226,10 +221,6 @@ header + header {
 .heart {
   color: #df584e;
   font-weight: bold;
-}
-
-*.text-light {
-  font-weight: 300 !important;
 }
 
 .sl-1 {
