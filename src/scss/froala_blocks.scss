@@ -1,16 +1,24 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import './variables';
+@import './mixins';
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
 @import './buttons';
 @import './teams';
-@import './mixins';
-@import './variables';
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: $headings-margin-top;
+}
 
 .fdb-block {
-  font-family: 'Roboto', sans-serif;
-  font-size: $font-size;
-  line-height: $line-height;
   @include font-smoothing(on);
   text-rendering: optimizelegibility;
   padding: $block-padding 0;
-  color: $font-color;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -31,7 +39,6 @@
 
   .fdb-box {
     background: $white;
-    color: $font-color;
     padding: 60px 40px;
     @include border-radius(4px);
     @include froala-box-shadow(1);
@@ -40,20 +47,6 @@
 
   .fdb-touch {
     border-top: solid 5px $primary-color;
-  }
-
-  // Headings
-  @each $h, $v in $headings {
-    #{$h}, .text-#{$h} {
-      font-size: $v;
-      margin-bottom: .5em;
-      margin-top: .3em;
-      font-weight: 400;
-    }
-  }
-
-  .font-weight-light {
-    font-weight: 300;
   }
 
   img {
@@ -214,22 +207,9 @@ header + header {
   color: $font-color;
 }
 
-.br {
-  @include border-radius(4px);
-  overflow: hidden;
-}
-
-.br-0 {
-  @include border-radius(0 !important);
-}
-
 .heart {
   color: #df584e;
   font-weight: bold;
-}
-
-*.text-light {
-  font-weight: 300 !important;
 }
 
 .sl-1 {
