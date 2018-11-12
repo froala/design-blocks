@@ -65,7 +65,7 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Implementations
 
-[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" width="60" height="60" />](https://github.com/froala/design-blocks) [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" width="60" height="60" />](https://github.com/froala/angular-froala-design-blocks) [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" width="60" height="60" />](https://github.com/froala/react-froala-design-blocks) [<img src="https://github.com/froala/vue-froala-design-blocks/blob/master/src/assets/logo-vue.png?raw=true" width="60" height="60" />](https://github.com/froala/vue-froala-design-blocks)
+[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" height="60" />](https://github.com/froala/design-blocks)    [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" height="60" />](https://github.com/froala/angular-froala-design-blocks)    [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" height="60" />](https://github.com/froala/react-froala-design-blocks)    [<img src="https://github.com/froala/vue-froala-design-blocks/blob/master/src/assets/logo-vue.png?raw=true" height="60" />](https://github.com/froala/vue-froala-design-blocks)
 
 
 
