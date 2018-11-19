@@ -46,7 +46,7 @@ p {
     background: $white;
     padding: 60px 40px;
     @include border-radius(4px);
-    @include froala-box-shadow(1);
+    @include froala-large-shadow();
     overflow: hidden;
   }
 

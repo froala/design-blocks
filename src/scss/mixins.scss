@@ -68,3 +68,10 @@
 
   @include box-shadow($shadow);
 }
+
+
+@mixin froala-large-shadow {
+  $shadow: 0 5px 14px 0 rgba(129, 129, 129, .20);
+
+  @include box-shadow($shadow);
+}

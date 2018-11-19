@@ -25,6 +25,6 @@
 .team-3.fdb-block {
   img {
     @include border-radius(100% !important);
-    @include froala-box-shadow(1);
+    @include froala-large-shadow();
   }
 }
