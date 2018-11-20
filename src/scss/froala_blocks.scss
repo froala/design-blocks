@@ -27,8 +27,19 @@ p {
   position: relative;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
   background-color: $white;
+
+  .container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.bg-r {
+      background-position: right;
+    }
+  }
 
   &.fdb-viewport {
     min-height: calc(100% - 2 * #{$block-padding});
@@ -205,6 +216,10 @@ header + header {
 .bg-dark {
   background-color: #2d313c;
   color: mix($black, $white, 5%);
+
+  p.lead {
+    color: white;
+  }
 }
 
 .bg-gray {

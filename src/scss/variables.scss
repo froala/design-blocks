@@ -3,17 +3,20 @@
 @import "node_modules/bootstrap/scss/variables";
 
 // Colors.
-$primary-color: #528bff;
-$accent-color: #FFEA00;
+$primary-color: #329ef7;
+$accent-color: #fe6655;
 $white: #FFFFFF;
 $black: #000000;
 $font-color: #444444;
+
+$primary: #329ef7;
+$link-color: $primary;
 
 // Sizes.
 $heading-margin: 0.7em;
 
 // Block
-$block-padding: 100px;
+$block-padding: 130px;
 
 $btn-shadow: 1;
 
