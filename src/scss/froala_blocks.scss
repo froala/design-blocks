@@ -59,6 +59,7 @@ p {
     @include border-radius(4px);
     @include froala-large-shadow();
     overflow: hidden;
+    color: $font-color;
   }
 
   .fdb-touch {
