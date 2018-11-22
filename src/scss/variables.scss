@@ -21,7 +21,7 @@ $block-padding: 130px;
 $btn-shadow: 1;
 
 // Override Bootstrap.
-$font-size-base: 1.61;
+$font-size-base: 1em;
 $headings-line-height: 1.5;
 $headings-font-weight: 400;
 $font-family-base: Lato, Helvetica, Arial;
@@ -64,3 +64,10 @@ $btn-padding-x-lg: 26px;
 $btn-border-radius: 4px;
 $btn-border-width: 2px;
 $input-btn-font-size: 1rem;
+
+$input-height-border: 4px;
+$input-height: calc(#{$input-height-inner} + #{$input-height-border});
+
+$input-height-sm: calc(#{$input-height-inner-sm} + #{$input-height-border});
+
+$input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border});
