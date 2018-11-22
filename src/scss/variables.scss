@@ -3,22 +3,25 @@
 @import "node_modules/bootstrap/scss/variables";
 
 // Colors.
-$primary-color: #528bff;
-$accent-color: #FFEA00;
+$primary-color: #329ef7;
+$accent-color: #fe6655;
 $white: #FFFFFF;
 $black: #000000;
 $font-color: #444444;
+
+$primary: #329ef7;
+$link-color: $primary;
 
 // Sizes.
 $heading-margin: 0.7em;
 
 // Block
-$block-padding: 100px;
+$block-padding: 130px;
 
 $btn-shadow: 1;
 
 // Override Bootstrap.
-$font-size-base: 1.61;
+$font-size-base: 1em;
 $headings-line-height: 1.5;
 $headings-font-weight: 400;
 $font-family-base: Lato, Helvetica, Arial;
@@ -61,3 +64,12 @@ $btn-padding-x-lg: 26px;
 $btn-border-radius: 4px;
 $btn-border-width: 2px;
 $input-btn-font-size: 1rem;
+
+$input-height-border: 4px;
+$input-height: calc(#{$input-height-inner} + #{$input-height-border});
+
+$input-height-sm: calc(#{$input-height-inner-sm} + #{$input-height-border});
+
+$input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border});
+
+$box-shadow: 0 5px 14px 0 rgba(129, 129, 129, .20);

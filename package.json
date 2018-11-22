@@ -35,7 +35,6 @@
     "gulp-connect": "^5.6.1",
     "gulp-copy": "^1.1.0",
     "gulp-cssmin": "^0.2.0",
-    "gulp-livereload": "^3.8.1",
     "gulp-open": "^2.1.0",
     "gulp-pug": "^3.3.0",
     "gulp-rename": "^1.4.0",
