@@ -88,8 +88,7 @@ gulp.task('watch', [], function() {
 gulp.task('connect', function () {
     connect.server({
         root: ['.tmp', 'node_modules', 'screenshots'],
-        port: 8001,
-        livereload: true
+        port: 8001
     });
 });
 
