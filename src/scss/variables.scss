@@ -71,3 +71,5 @@ $input-height: calc(#{$input-height-inner} + #{$input-height-border});
 $input-height-sm: calc(#{$input-height-inner-sm} + #{$input-height-border});
 
 $input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border});
+
+$box-shadow: 0 5px 14px 0 rgba(129, 129, 129, .20);

@@ -8,7 +8,8 @@
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/type";
 @import "node_modules/bootstrap/scss/forms";
-@import './buttons';
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/utilities/shadows";
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -56,19 +57,18 @@ p {
   .fdb-box {
     background: $white;
     padding: 60px 40px;
-    @include border-radius(4px);
-    @include froala-large-shadow();
     overflow: hidden;
     color: $font-color;
+    @include border-radius(4px);
+    box-shadow: $box-shadow !important;
   }
 
   .fdb-touch {
     border-top: solid 5px $primary-color;
+    z-index: 2;
   }
 
   img {
-    @include border-radius(4px);
-
     + p, + h3, + h4 {
       margin-top: 20px;
     }
@@ -118,7 +118,6 @@ p {
   img.fdb-icon-round {
     width: auto;
     width: 60px;
-    @include border-radius(60px);
   }
 
   .row-100 {
@@ -226,9 +225,4 @@ header + header {
 .bg-gray {
   background-color: #fafafa;
   color: $font-color;
-}
-
-.sl-1 {
-  @include froala-box-shadow(1);
-  z-index: 2;
 }
