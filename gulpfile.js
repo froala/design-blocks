@@ -96,7 +96,7 @@ gulp.task('screenshots', function(cb) {
   del.sync('./screenshots');
 
   utils.makeScreenshots([
-    ['call_to_action', 'header, section, footer'],
+    ['call-to-action', 'header, section, footer'],
     ['contacts', 'header, section, footer'],
     ['contents', 'header, section, footer'],
     ['features', 'header, section, footer'],
