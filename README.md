@@ -118,7 +118,7 @@ We provide compiled CSS (`froala_blocks.css`), as well as compiled and minified 
 
 ## Categories
 
-- Call to action - https://github.com/froala/design-blocks/blob/master/dist/call_to_action.html
+- Call to action - https://github.com/froala/design-blocks/blob/master/dist/call-to-action.html
 - Contacts - https://github.com/froala/design-blocks/blob/master/dist/contacts.html
 - Contents - https://github.com/froala/design-blocks/blob/master/dist/contents.html
 - Features - https://github.com/froala/design-blocks/blob/master/dist/features.html
