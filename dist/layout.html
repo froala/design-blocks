@@ -13,7 +13,68 @@
       }
     </style>
   </head>
-  <body>
+  <body><style>
+  #navigator {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  #navigator .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  @media (max-width: 720px) {
+    #navigator {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+
+  #navigator a {
+    font-size: 14px;
+  }
+
+  #navigator+section {
+    padding: 250px 0;
+  }
+
+</style>
+
+<section class="fdb-block p-2" id="navigator">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler mr-auto ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarNav0">
+        <p class="m-auto">
+          <a class="btn btn-outline-primary m-1" href="call-to-action.html">Call to action</a>
+          <a class="btn btn-outline-primary m-1" href="contacts.html">Contacts</a>
+          <a class="btn btn-outline-primary m-1" href="contents.html">Contents</a>
+          <a class="btn btn-outline-primary m-1" href="features.html">Features</a>
+          <a class="btn btn-outline-primary m-1" href="footers.html">Footers</a>
+          <a class="btn btn-outline-primary m-1" href="forms.html">Forms</a>
+          <a class="btn btn-outline-primary m-1" href="headers.html">Headers</a>
+          <a class="btn btn-outline-primary m-1" href="pricings.html">Pricings</a>
+          <a class="btn btn-outline-primary m-1" href="teams.html">Teams</a>
+          <a class="btn btn-outline-primary m-1" href="testimonials.html">Testimonials</a>
+        </p>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<script>
+  var page = window.location.pathname.split('/')
+  page = page[page.length - 1]
+
+  var nav = document.querySelector('a[href="' + page + '"]')
+  if (nav) {
+    nav.classList.add('active')
+  }
+
+</script>
+
     <!--  1 -->
     <section class="fdb-block">
       <div class="container">
@@ -81,8 +142,8 @@
         <div class="row">
           <div class="col-12 text-center">
             <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/adobe.svg">
-            <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/discovery.svg">
-            <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2 " src="./imgs/customers/ebay.svg">
+            <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/amazon.svg">
+            <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/ebay.svg">
             <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/samsung.svg">
             <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/orange.svg">
             <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/salesforce.svg">
@@ -177,7 +238,7 @@
       <div class="container py-5 my-5 bg-r" style="background-image: url(imgs/shapes/4.svg);">
         <div class="row justify-content-end py-5">
           <div class="col-12 col-md-8 col-lg-6 mr-5 text-center">
-            <div class="fdb-box rounded-0">
+            <div class="fdb-box">
               <h1>Call to Action</h1>
               <p class="lead">
                 When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove
@@ -1504,7 +1565,7 @@
       <div class="container pt-5 mt-5" style="background-image: url(imgs/shapes/9.svg);">
         <div class="row text-left pt-5">
           <div class="col-12 col-md-8 col-lg-6">
-            <div class="fdb-box fdb-touch rounded-0">
+            <div class="fdb-box fdb-touch rounded-bottom-0">
               <h2><strong>Design Blocks</strong></h2>
               <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               <p class="lead mt-4"><a href="https://www.froala.com">Read More</a></p>
@@ -1517,7 +1578,7 @@
       <div class="container">
         <div class="row text-left justify-content-end">
           <div class="col-12 col-md-6 col-xl-5">
-            <div class="fdb-box rounded-0">
+            <div class="fdb-box rounded-bottom-0">
               <h2><strong>Design Blocks</strong></h2>
               <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
     
@@ -2294,19 +2355,19 @@
     
         <div class="row text-left mt-5">
           <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto mr-md-auto ml-md-0">
-            <img alt="image" class="img-fluid" src="./imgs/hero/blue.svg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/hero/blue.svg">
             <h3><strong>Feature One</strong></h3>
             <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
           </div>
     
           <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto pt-5 pt-md-0">
-            <img alt="image" class="img-fluid" src="./imgs/hero/red.svg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/hero/red.svg">
             <h3><strong>Feature Two</strong></h3>
             <p> It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
           </div>
     
           <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto ml-md-auto mr-md-0 pt-5 pt-md-0">
-            <img alt="image" class="img-fluid" src="./imgs/hero/yellow.svg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/hero/yellow.svg">
             <h3><strong>Feature Three</strong></h3>
             <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
           </div>
@@ -2501,21 +2562,21 @@
     
         <div class="row text-center justify-content-center mt-5">
           <div class="col-10 col-sm-3">
-            <img alt="image" class="img-fluid" src="./imgs/hero/blue.svg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/hero/blue.svg">
             <h3><strong>Feature One</strong></h3>
           </div>
           <div class="col-10 col-sm-3 pt-5 pt-sm-0">
-            <img alt="image" class="img-fluid" src="./imgs/hero/red.svg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/hero/red.svg">
             <h3><strong>Feature Two</strong></h3>
           </div>
     
           <div class="col-10 col-sm-3 pt-5 pt-sm-0">
-            <img alt="image" class="img-fluid" src="./imgs/hero/purple.svg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/hero/purple.svg">
             <h3><strong>Feature Three</strong></h3>
           </div>
     
           <div class="col-10 col-sm-3 pt-5 pt-sm-0">
-            <img alt="image" class="img-fluid" src="./imgs/hero/yellow.svg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/hero/yellow.svg">
             <h3><strong>Feature Four</strong></h3>
           </div>
         </div>
@@ -3185,29 +3246,29 @@
       </div>
     </section>
     ,    <section class="fdb-block py-0">
-      <div class="container py-5 my-5" style="background-image: url(imgs/shapes/4.svg);" ">
-        <div class=" row justify-content-end ">
-          <div class="col-12 col-md-8 col-lg-6 col-xl-5 text-left ">
-            <div class="fdb-box ">
-              <div class="row ">
-                <div class="col ">
+      <div class="container py-5 my-5" style="background-image: url(imgs/shapes/4.svg);">
+        <div class=" row justify-content-end">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5 text-left">
+            <div class="fdb-box">
+              <div class="row">
+                <div class="col">
                   <h1>Log In</h1>
-                  <p class="lead ">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
+                  <p class="lead">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
                 </div>
               </div>
-              <div class="row ">
-                <div class="col mt-4 ">
-                  <input type="text " class="form-control " placeholder="Email ">
+              <div class="row">
+                <div class="col mt-4">
+                  <input type="text" class="form-control" placeholder="Email">
                 </div>
               </div>
-              <div class="row mt-4 ">
-                <div class="col ">
-                  <input type="password " class="form-control " placeholder="Password ">
+              <div class="row mt-4">
+                <div class="col">
+                  <input type="password" class="form-control" placeholder="Password">
                 </div>
               </div>
-              <div class="row mt-4 ">
-                <div class="col ">
-                  <button class="btn btn-secondary " type="button ">Submit</button>
+              <div class="row mt-4">
+                <div class="col">
+                  <button class="btn btn-secondary" type="button">Submit</button>
                 </div>
               </div>
             </div>
@@ -4041,11 +4102,11 @@
             </a>
           </div>
     
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-3" aria-controls="navbarNav6" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-3" aria-controls="navbarNav14" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
     
-          <div class="collapse navbar-collapse justify-content-center col-md-8 navbar-collapse-3">
+          <div class="collapse navbar-collapse justify-content-center col-md-8 navbar-collapse-3" id="navbarNav14">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item active">
                 <a class="nav-link" href="https://www.froala.com">Home <span class="sr-only">(current)</span></a>
@@ -4084,11 +4145,11 @@
             </a>
           </div>
     
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-4" aria-controls="navbarNav7" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-4" aria-controls="navbarNav15" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
     
-          <div class="collapse navbar-collapse navbar-collapse-4 justify-content-center col-md-6" id="navbarNav7">
+          <div class="collapse navbar-collapse navbar-collapse-4 justify-content-center col-md-6" id="navbarNav15">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item active">
                 <a class="nav-link" href="https://www.froala.com">Home <span class="sr-only">(current)</span></a>
@@ -4413,7 +4474,7 @@
     
         <div class="row mt-5 align-items-top">
           <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left">
-            <div class="br">
+            <div class="rounded">
               <div class="bg-dark p-3 text-center">
                 <h2 class="font-weight-light">Startup</h2>
                 <p class="h2"><strong>$9.90</strong></p>
@@ -4433,7 +4494,7 @@
           </div>
     
           <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left pt-4 pt-lg-0">
-            <div class="br">
+            <div class="rounded">
               <div class="bg-dark p-3 text-center">
                 <h2 class="font-weight-light">Standard</h2>
                 <p class="h2"><strong>$19.90</strong></p>
@@ -4453,7 +4514,7 @@
           </div>
     
           <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left pt-4 pt-lg-0">
-            <div class="br">
+            <div class="rounded">
               <div class="bg-dark p-3 text-center">
                 <h2 class="font-weight-light">Business</h2>
                 <p class="h2"><strong>$29.90</strong></p>
@@ -5060,28 +5121,28 @@
     
         <div class="row text-center mt-5">
           <div class="col-3">
-            <img alt="image" class="img-fluid" src="./imgs/people/5.jpg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/5.jpg">
             <h3><strong>John Smith</strong></h3>
             <p>Position</p>
             <p>A wonderful serenity has taken possession of my entire soul.</p>
           </div>
     
           <div class="col-3">
-            <img alt="image" class="img-fluid" src="./imgs/people/6.jpg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/6.jpg">
             <h3><strong>John Smith</strong></h3>
             <p>Position</p>
             <p>Pityful a rethoric question ran over her cheek.</p>
           </div>
     
           <div class="col-3">
-            <img alt="image" class="img-fluid" src="./imgs/people/3.jpg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/3.jpg">
             <h3><strong>John Smith</strong></h3>
             <p>Position</p>
             <p>And if she hasn’t been rewritten, then they are still using her.</p>
           </div>
     
           <div class="col-3">
-            <img alt="image" class="img-fluid" src="./imgs/people/2.jpg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/2.jpg">
             <h3><strong>John Smith</strong></h3>
             <p>Position</p>
             <p>Wild Question Marks, but the Little Blind Text didn’t listen.</p>
@@ -5170,21 +5231,21 @@
     
         <div class="row text-center mt-5">
           <div class="col-4">
-            <img alt="image" class="img-fluid" src="./imgs/people/9.jpg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/9.jpg">
             <h3><strong>John Smith</strong></h3>
             <p>Position</p>
             <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
           </div>
     
           <div class="col-4">
-            <img alt="image" class="img-fluid" src="./imgs/people/1.jpg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/1.jpg">
             <h3><strong>John Smith</strong></h3>
             <p>Position</p>
             <p>One morning, when Gregor Samsa woke from troubled dreams.</p>
           </div>
     
           <div class="col-4">
-            <img alt="image" class="img-fluid" src="./imgs/people/3.jpg">
+            <img alt="image" class="img-fluid rounded" src="./imgs/people/3.jpg">
             <h3><strong>John Smith</strong></h3>
             <p>Position</p>
             <p>A small river named Duden flows by their place and supplies it.</p>
@@ -5345,7 +5406,7 @@
           <div class="col-sm-6">
             <div class="row align-items-center">
               <div class="col-4">
-                <img alt="image" class="img-fluid" src="./imgs/people/8.jpg">
+                <img alt="image" class="img-fluid rounded" src="./imgs/people/8.jpg">
               </div>
     
               <div class="col-8">
@@ -5360,7 +5421,7 @@
           <div class="col-sm-6">
             <div class="row align-items-center">
               <div class="col-4">
-                <img alt="image" class="img-fluid" src="./imgs/people/7.jpg">
+                <img alt="image" class="img-fluid rounded" src="./imgs/people/7.jpg">
               </div>
     
               <div class="col-8">
@@ -5379,7 +5440,7 @@
           <div class="col-sm-6">
             <div class="row align-items-center">
               <div class="col-4">
-                <img alt="image" class="img-fluid" src="./imgs/people/9.jpg">
+                <img alt="image" class="img-fluid rounded" src="./imgs/people/9.jpg">
               </div>
     
               <div class="col-8">
@@ -5394,7 +5455,7 @@
           <div class="col-sm-6">
             <div class="row align-items-center">
               <div class="col-4">
-                <img alt="image" class="img-fluid" src="./imgs/people/4.jpg">
+                <img alt="image" class="img-fluid rounded" src="./imgs/people/4.jpg">
               </div>
     
               <div class="col-8">
@@ -5454,7 +5515,7 @@
     
             <div class="mt-5 justify-content-center">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/adobe.svg">
-              <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/discovery.svg">
+              <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/amazon.svg">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/ebay.svg">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/samsung.svg">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/orange.svg">
@@ -5549,7 +5610,7 @@
             <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
             <div class="mt-5 justify-content-center">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/adobe.svg">
-              <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/discovery.svg">
+              <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/amazon.svg">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/ebay.svg">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/samsung.svg">
               <img alt="image" height="30" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/orange.svg">
@@ -5564,7 +5625,7 @@
         <div class="row justify-content-center text-center">
           <div class="col">
             <img alt="image" height="40" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/adobe.svg">
-            <img alt="image" height="40" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/discovery.svg">
+            <img alt="image" height="40" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/amazon.svg">
             <img alt="image" height="40" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/ebay.svg">
             <img alt="image" height="40" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/samsung.svg">
             <img alt="image" height="40" class="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/orange.svg">
