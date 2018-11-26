@@ -70,7 +70,8 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Implementations
 
-[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" height="60" />](https://github.com/froala/design-blocks)    [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" height="60" />](https://github.com/froala/angular-froala-design-blocks)    [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" height="60" />](https://github.com/froala/react-froala-design-blocks)    [<img src="https://github.com/froala/vue-froala-design-blocks/blob/master/src/assets/logo-vue.png?raw=true" height="60" />](https://github.com/froala/vue-froala-design-blocks)
+[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" height="60" />](https://github.com/froala/design-blocks)    [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" height="60" />](https://github.com/froala/angular-froala-design-blocks)    [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" height="60" />](https://github.com/froala/react-froala-design-blocks)    [<img src="https://github.com/froala/design-blocks/blob/dev/src/assets/logo-psd.png?raw=true" height="60" />](https://www.creative-tim.com/tools/froala)    [<img src="https://github.com/froala/design-blocks/blob/dev/src/assets/logo-sketch.png?raw=true" height="60" />](https://reaction.ca/froala-design-block-sketch-template/)
+
 
 
 
@@ -204,10 +205,11 @@ Through the development of new versions, we're going use the Semantic Versioning
 
 Special thanks to everyone who contributed to getting the Froala Design Blocks to the current state.  🙏
 
-- [Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for the images
-- [Creative Tim](https://www.creative-tim.com/) - design blocks PSDs: https://www.creative-tim.com/tools/froala
-- [Reaction](https://reaction.ca) - design blocks Sketches: https://reaction.ca/froala-design-block-sketch-template/
-- [m5o](https://github.com/m5o) - bootstrap 4 update
+- [Creative Tim](https://www.creative-tim.com/) - design blocks PSDs, help with typography and shapes SVGs
+- [Reaction](https://reaction.ca) - design blocks Sketches:
+- [m5o](https://github.com/m5o) - help with update to Bootstrap 4
+- [Pexels](https://www.pexels.com/) - photos
+- [Undraw](https://undraw.co/) - illustrations
 
 
 ## Copyright and license
