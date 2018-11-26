@@ -1,9 +1,3 @@
-@mixin box-sizing($sizing) {
-  box-sizing: $sizing;
-  -moz-box-sizing: $sizing;
-  -webkit-box-sizing: $sizing;
-}
-
 @mixin font-smoothing($value: on) {
   @if $value == on {
     -webkit-font-smoothing:   antialiased;
@@ -14,17 +8,4 @@
     -webkit-font-smoothing:   subpixel-antialiased;
     -moz-osx-font-smoothing:  auto;
   }
-}
-
-@mixin display-flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@mixin opacity($opacity) {
-  opacity: $opacity;
-  $opacity-ie: $opacity * 100;
-  filter: alpha(opacity=$opacity-ie); //IE8
 }
