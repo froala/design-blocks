@@ -41,7 +41,7 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
   git clone https://github.com/froala/design-blocks.git
   cd design-blocks
   npm install
-  npm run gulp
+  npm run start
   ```
 
 2. **Design Blocks Skeleton.** You can use the following code layout as a starting point.
@@ -188,7 +188,7 @@ cd design-blocks
 
 ```bash
 npm install
-npm run gulp
+npm run start
 ```
 
 With the gulp server running, the project is available at the following address [localhost:8001](http://localhost:8001/). The `src` files are automatically compiled when changes have been made.
