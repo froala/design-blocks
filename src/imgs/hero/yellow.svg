@@ -7,25 +7,14 @@
 	.st1{fill:#FFFFFF;fill-opacity:0.1;}
 </style>
 <title>11</title>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1588.8717" y1="-8445.3877" x2="1641.0497" y2="-7416.7363" gradientTransform="matrix(8.000000e-02 1.38 1.2 -7.000000e-02 10067.5312 -2356.9202)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1760.9349" y1="9329.1582" x2="1813.1128" y2="8300.5068" gradientTransform="matrix(8.000000e-02 1.38 -1.2 7.000000e-02 11114.291 -2656.2302)">
 	<stop  offset="0" style="stop-color:#FFE1A3"/>
 	<stop  offset="1" style="stop-color:#FFC672"/>
 </linearGradient>
 <path class="st0" d="M0,853.8V0h1345.7v853.8H0z"/>
-<circle class="st1" cx="500.8" cy="1575" r="81.2"/>
-<circle class="st1" cx="-74.8" cy="1373.8" r="201.2"/>
-<circle class="st1" cx="1178.2" cy="1097.2" r="72.2"/>
-<circle class="st1" cx="1137.8" cy="1764.9" r="124.6"/>
-<circle class="st1" cx="406.5" cy="1263" r="36.5"/>
-<circle class="st1" cx="1250.4" cy="1410.5" r="18.3"/>
-<circle class="st1" cx="531.9" cy="36.5" r="50.2"/>
-<circle class="st1" cx="-46" cy="341" r="161"/>
-<circle class="st1" cx="363.2" cy="542.2" r="72.2"/>
-<circle class="st1" cx="892.3" cy="395.3" r="24.7"/>
-<circle class="st1" cx="666.5" cy="748.1" r="36.1"/>
-<circle class="st1" cx="1301.6" cy="462.3" r="91.7"/>
 <circle class="st1" cx="218.3" cy="801.5" r="17.3"/>
-<circle class="st1" cx="1088.7" cy="197.3" r="17.3"/>
-<circle class="st1" cx="819" cy="1238" r="98"/>
-<circle class="st1" cx="1002.4" cy="645.8" r="31.4"/>
+<path class="st1" d="M16.9,322.5c0,0,203.2-59.4,371.4-247.8S698-4.7,709,77.2c7.4,54.8-87.7,311.4-3.4,470.9S893,812.8,896,863.8
+	c3,49.6,23.9,127.4-416-39.1s-517-280.5-543.7-330.4C-81.2,461.7-101.1,381.4,16.9,322.5z"/>
+<path class="st1" d="M724.8,407.2c0,0,69-129,57.4-303.1S892.7-87.2,938.5-53c30.6,22.9,111.3,193.9,230.8,229.4
+	c119.5,35.5,221.2,35.6,247.8,58.7c25.9,22.5,74.4,49.8-220.5,186.4S808.1,541,770.5,530.1C746,522.9,696.8,493.9,724.8,407.2z"/>
 </svg>

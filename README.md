@@ -32,12 +32,17 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Quick start
 
-1. **Download Froala Design Blocks.** There are several ways to start using the Froala Design Blocks:
+1. **Download Froala Design Blocks.** There are several ways to start using the Froala Design Blocks depending on how you prefer:
 
 - [Use the builder](https://www.froala.com/design-blocks/webpage-builder)
 - [Download the latest release](https://github.com/froala/design-blocks/archive/1.0.2.zip) and then read the [What's included](#whats-included) section below.
-- Clone the repo: `git clone https://github.com/froala/design-blocks.git`
-- Install with [npm](https://www.npmjs.com/): `npm install froala-design-blocks`
+- Clone the repo and run it.
+  ```bash
+  git clone https://github.com/froala/design-blocks.git
+  cd design-blocks
+  npm install
+  npm run start
+  ```
 
 2. **Design Blocks Skeleton.** You can use the following code layout as a starting point.
 
@@ -65,7 +70,8 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Implementations
 
-[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" height="60" />](https://github.com/froala/design-blocks)    [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" height="60" />](https://github.com/froala/angular-froala-design-blocks)    [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" height="60" />](https://github.com/froala/react-froala-design-blocks)    [<img src="https://github.com/froala/vue-froala-design-blocks/blob/master/src/assets/logo-vue.png?raw=true" height="60" />](https://github.com/froala/vue-froala-design-blocks)
+[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" height="60" />](https://github.com/froala/design-blocks)    [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" height="60" />](https://github.com/froala/angular-froala-design-blocks)    [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" height="60" />](https://github.com/froala/react-froala-design-blocks)        [<img src="https://github.com/froala/vue-froala-design-blocks/blob/master/src/assets/logo-vue.png?raw=true" height="60" />](https://github.com/froala/vue-froala-design-blocks)    [<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-psd.png?raw=true" height="60" />](https://www.creative-tim.com/tools/froala)    [<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-sketch.png?raw=true" height="60" />](https://reaction.ca/froala-design-block-sketch-template/)
+
 
 
 
@@ -112,7 +118,7 @@ We provide compiled CSS (`froala_blocks.css`), as well as compiled and minified 
 
 ## Categories
 
-- Call to action - https://github.com/froala/design-blocks/blob/master/dist/call_to_action.html
+- Call to action - https://github.com/froala/design-blocks/blob/master/dist/call-to-action.html
 - Contacts - https://github.com/froala/design-blocks/blob/master/dist/contacts.html
 - Contents - https://github.com/froala/design-blocks/blob/master/dist/contents.html
 - Features - https://github.com/froala/design-blocks/blob/master/dist/features.html
@@ -182,7 +188,7 @@ cd design-blocks
 
 ```bash
 npm install
-npm run gulp
+npm run start
 ```
 
 With the gulp server running, the project is available at the following address [localhost:8001](http://localhost:8001/). The `src` files are automatically compiled when changes have been made.
@@ -199,10 +205,11 @@ Through the development of new versions, we're going use the Semantic Versioning
 
 Special thanks to everyone who contributed to getting the Froala Design Blocks to the current state.  🙏
 
-- [Shourav Chowdhury](https://dribbble.com/shourav_chy01) - source of inspiration for the images
-- [Creative Tim](https://www.creative-tim.com/) - design blocks PSDs: https://www.creative-tim.com/tools/froala
-- [Reaction](https://reaction.ca) - design blocks Sketches: https://reaction.ca/froala-design-block-sketch-template/
-- [m5o](https://github.com/m5o) - bootstrap 4 update
+- [Creative Tim](https://www.creative-tim.com/) ❤️ - design blocks PSDs, help with typography and SVGs for shapes
+- [Reaction](https://reaction.ca) - design blocks Sketches:
+- [m5o](https://github.com/m5o) - help with update to Bootstrap 4
+- [Pexels](https://www.pexels.com/) - photos
+- [Undraw](https://undraw.co/) - illustrations
 
 
 ## Copyright and license

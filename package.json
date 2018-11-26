@@ -25,7 +25,8 @@
     }
   ],
   "scripts": {
-    "gulp": "gulp",
+    "start": "gulp",
+    "screenshots": "gulp screenshots",
     "dist": "gulp dist"
   },
   "devDependencies": {
