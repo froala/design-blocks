@@ -210,7 +210,7 @@ Special thanks to everyone who contributed to getting the Froala Design Blocks t
 - [m5o](https://github.com/m5o) - help with update to Bootstrap 4
 - [Pexels](https://www.pexels.com/) - photos
 - [Undraw](https://undraw.co/) - illustrations
-
+- [FeatherIcons](https://feathericons.com/) - icons
 
 ## Copyright and license
 
