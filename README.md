@@ -35,7 +35,7 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 1. **Download Froala Design Blocks.** There are several ways to start using the Froala Design Blocks depending on how you prefer:
 
 - [Use the builder](https://www.froala.com/design-blocks/webpage-builder)
-- [Download the latest release](https://github.com/froala/design-blocks/archive/1.0.2.zip) and then read the [What's included](#whats-included) section below.
+- [Download the latest release](https://github.com/froala/design-blocks/blob/master/froala-design-blocks.zip?raw=true) and then read the [What's included](#whats-included) section below.
 - Clone the repo and run it.
   ```bash
   git clone https://github.com/froala/design-blocks.git

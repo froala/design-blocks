@@ -11,6 +11,7 @@ var fs = require('fs');
 var path = require('path');
 var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
+var zip = require('gulp-zip');
 
 function getBlocks(dir) {
   return fs.readdirSync(dir)
@@ -84,6 +85,12 @@ gulp.task('watch', [], function() {
     gulp.start(['sass-.tmp']);
   });
 })
+
+gulp.task('zip', () =>
+  gulp.src('dist/*')
+    .pipe(zip('froala-design-blocks.zip'))
+    .pipe(gulp.dest('./'))
+);
 
 gulp.task('connect', function () {
     connect.server({

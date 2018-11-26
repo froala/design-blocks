@@ -25,9 +25,10 @@
     }
   ],
   "scripts": {
-    "start": "gulp",
     "screenshots": "gulp screenshots",
-    "dist": "gulp dist"
+    "start": "gulp",
+    "zip": "gulp zip",
+    "dist": "gulp dist && gulp zip"
   },
   "devDependencies": {
     "del": "^3.0.0",
@@ -42,6 +43,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
+    "gulp-zip": "^4.2.0",
     "node-sass": "^4.9.3",
     "puppeteer": "^0.12.0"
   },
