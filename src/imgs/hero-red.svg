@@ -7,25 +7,15 @@
 	.st1{fill:#FFFFFF;fill-opacity:0.1;}
 </style>
 <title>11</title>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1253.0594" y1="-7950.084" x2="1305.2461" y2="-6921.2642" gradientTransform="matrix(8.000000e-02 1.38 1.2 -7.000000e-02 9499.9307 -1850.8101)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1419.33" y1="8841.4688" x2="1471.5165" y2="7812.6489" gradientTransform="matrix(8.000000e-02 1.38 -1.2 7.000000e-02 10556.291 -2142.6802)">
 	<stop  offset="0" style="stop-color:#FF8A7E"/>
 	<stop  offset="1" style="stop-color:#FE6655"/>
 </linearGradient>
 <path class="st0" d="M0,869.8V0h1345.7v869.8H0z"/>
-<circle class="st1" cx="500.8" cy="1575" r="81.2"/>
-<circle class="st1" cx="-74.8" cy="1373.8" r="201.2"/>
-<circle class="st1" cx="1178.2" cy="1097.2" r="72.2"/>
-<circle class="st1" cx="1137.8" cy="1764.9" r="124.6"/>
-<circle class="st1" cx="406.5" cy="1263" r="36.5"/>
-<circle class="st1" cx="1250.4" cy="1410.5" r="18.3"/>
-<circle class="st1" cx="531.9" cy="36.5" r="50.2"/>
-<circle class="st1" cx="-46" cy="341" r="161"/>
-<circle class="st1" cx="363.2" cy="542.2" r="72.2"/>
-<circle class="st1" cx="892.3" cy="345.9" r="24.7"/>
-<circle class="st1" cx="666.5" cy="748.1" r="36.1"/>
-<circle class="st1" cx="1301.6" cy="462.3" r="91.7"/>
-<circle class="st1" cx="218.3" cy="801.5" r="17.3"/>
-<circle class="st1" cx="1106" cy="172.7" r="17.3"/>
-<circle class="st1" cx="819" cy="1238" r="98"/>
-<circle class="st1" cx="1002.4" cy="645.8" r="31.4"/>
+<path class="st1" d="M993.6,147.7c44.6,66.6-15.8,158.4-108.3,166.2c-26.6,2.3-58.8,3.6-97.4,3.1
+	c-184.4-2.5-407.6,131.2-474.9,158.3c-120.2,48.3-445,95.9-310.7-106C178.1,105.4-8.8-94.4,134.2-148.8
+	c123.3-46.9,329.9-13.3,426.7,15.9c90,27.2,317.9,120.3,430.9,278.2C992.5,146.1,993,146.9,993.6,147.7z"/>
+<path class="st1" d="M907.8,998.2c0,0-63.2-137.7-214.1-237.2s-88.4-211-31.6-227.3c38-10.9,229.6,29.7,333.8-46.6
+	s167.9-160.1,203.7-167.6c34.8-7.3,87.7-30.1,15.5,298.6c-72.2,328.8-144.8,395.2-177.4,419.4
+	C1016.6,1053.2,961.8,1075.6,907.8,998.2z"/>
 </svg>
