@@ -70,7 +70,7 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Implementations
 
-[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" height="60" />](https://github.com/froala/design-blocks)    [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" height="60" />](https://github.com/froala/angular-froala-design-blocks)    [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" height="60" />](https://github.com/froala/react-froala-design-blocks)        [<img src="https://github.com/froala/vue-froala-design-blocks/blob/master/src/assets/logo-vue.png?raw=true" height="60" />](https://github.com/froala/vue-froala-design-blocks)    [<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-psd.png?raw=true" height="60" />](https://www.creative-tim.com/tools/froala)    [<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-sketch.png?raw=true" height="60" />](https://reaction.ca/froala-design-block-sketch-template/)
+[<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-html.png?raw=true" height="60" />](https://github.com/froala/design-blocks)    [<img src="https://github.com/froala/angular-froala-design-blocks/blob/master/src/assets/logo-angluar.png?raw=true" height="60" />](https://github.com/froala/angular-froala-design-blocks)    [<img src="https://github.com/froala/react-froala-design-blocks/blob/master/public/logo-react.png?raw=true" height="60" />](https://github.com/froala/react-froala-design-blocks)        [<img src="https://github.com/froala/vue-froala-design-blocks/blob/master/src/assets/logo-vue.png?raw=true" height="60" />](https://github.com/froala/vue-froala-design-blocks)    [<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-psd.png?raw=true" height="60" />](https://github.com/froala/design-blocks/blob/dev/assets/psds/psd-pages.zip?raw=true)    [<img src="https://github.com/froala/design-blocks/blob/dev/assets/logo-sketch.png?raw=true" height="60" />](https://github.com/froala/design-blocks/blob/dev/assets/sketch/froala-design-blocks.sketch?raw=true)
 
 
 
@@ -97,7 +97,7 @@ design-blocks/
 │   │── pricings.html
 │   │── teams.html
 │   └── testimonials.html
-├── psds/
+├── assets/
 ├── screenshots/
 └── src/
 ```
