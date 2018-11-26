@@ -205,7 +205,7 @@ Through the development of new versions, we're going use the Semantic Versioning
 
 Special thanks to everyone who contributed to getting the Froala Design Blocks to the current state.  🙏
 
-- [Creative Tim](https://www.creative-tim.com/) - design blocks PSDs, help with typography and shapes SVGs
+- [Creative Tim](https://www.creative-tim.com/) ❤️ - design blocks PSDs, help with typography and SVGs for shapes
 - [Reaction](https://reaction.ca) - design blocks Sketches:
 - [m5o](https://github.com/m5o) - help with update to Bootstrap 4
 - [Pexels](https://www.pexels.com/) - photos
