@@ -21,6 +21,15 @@ p {
   font-weight: $paragraph-font-weight;
 }
 
+.rounded {
+  overflow: hidden;
+}
+
+.rounded-bottom-0 {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
 .fdb-block {
   @include font-smoothing(on);
   text-rendering: optimizelegibility;
