@@ -87,7 +87,7 @@ gulp.task('watch', [], function() {
 })
 
 gulp.task('zip', () =>
-  gulp.src('dist/*')
+  gulp.src('dist/**/*')
     .pipe(zip('froala-design-blocks.zip'))
     .pipe(gulp.dest('./'))
 );
