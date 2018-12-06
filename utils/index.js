@@ -13,7 +13,7 @@ function getDirPath(name) {
 };
 
 function getFileName(index) {
-  return `${index + 1}.jpg`;
+  return `${index}.jpg`;
 };
 
 function getUrl(name) {
