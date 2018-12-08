@@ -33,7 +33,7 @@ p {
 }
 
 .fdb-block {
-  @include font-smoothing(on);
+  @include font-smoothing(true);
   text-rendering: optimizelegibility;
   padding: $block-padding 0;
   position: relative;
