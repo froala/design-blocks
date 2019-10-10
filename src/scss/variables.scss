@@ -68,8 +68,8 @@ $input-btn-font-size: 1rem;
 $input-height-border: 0.25rem;
 $input-height: calc(#{$input-height-inner} + #{$input-height-border});
 
-$input-height-sm: calc(#{$input-height-inner-sm} + #{$input-height-border});
+// $input-height-sm: calc(#{$input-height-inner-sm} + #{$input-height-border});
 
-$input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border});
+// $input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border});
 
 $box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, .20);
