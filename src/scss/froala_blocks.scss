@@ -237,3 +237,26 @@ header + header {
   background-color: #f4f7fe;
   color: $font-color;
 }
+
+// ==============================================
+// Accesibility overrides
+// ==============================================
+
+// Insufficient contrast
+
+.btn-primary {
+  background-color: hsl(207, 92%, 43%);
+  border-color: hsl(207, 92%, 43%);
+}
+
+.btn-outline-primary {
+  color: hsl(207, 92%, 43%);
+  border-color: hsl(207, 92%, 43%);
+}
+
+// .lead
+p {
+  color: hsl(215, 11%, 47%);
+}
+
+
