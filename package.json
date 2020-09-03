@@ -45,7 +45,7 @@
     "gulp-watch": "^4.3.11",
     "gulp-zip": "^4.2.0",
     "node-sass": "^4.9.3",
-    "puppeteer": "^0.12.0"
+    "puppeteer": "^5.2.1"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
