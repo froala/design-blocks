@@ -112,7 +112,7 @@ We provide compiled CSS (`froala_blocks.css`), as well as compiled and minified 
 
 - **Font Awesome**. We're using the amazing Font Awesome library for the social network icons.
 
-- **Google Fonts**. By default, the Design Blocks toolkit is built using the Roboto font, however that can easily be changed to other fonts.
+- **Google Fonts**. By default, the Design Blocks toolkit is built using the Lato font, however that can easily be changed to other fonts.
 
 
 
